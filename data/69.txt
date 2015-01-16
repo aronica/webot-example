@@ -1,0 +1,15 @@
+
+              <p/><p>Implement <code>int sqrt(int x)</code>.</p>&#13;
+&#13;
+<p>Compute and return the square root of <i>x</i>.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/math/">Math</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/binary-search/">Binary Search</a>
+                  
+                </span>
+              
+            

@@ -8,7 +8,7 @@ var verbose = require('debug')('webot-example:verbose');
 var app = express();
 
 // 实际使用时，这里填写你在微信公共平台后台填写的 token
-var wx_token = process.env.WX_TOKEN || 'keyboardcat123';
+var wx_token = process.env.WX_TOKEN || 'google';
 var wx_token2 = process.env.WX_TOKEN_2 || 'weixinToken2';
 
 // 建立多个实例，并监听到不同 path ，

@@ -1,0 +1,33 @@
+
+              <p/><p>&#13;
+Given a linked list, reverse the nodes of a linked list <i>k</i> at a time and return its modified list.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+If the number of nodes is not a multiple of <i>k</i> then left-out nodes in the end should remain as it is.</p>&#13;
+&#13;
+<p>You may not alter the values in the nodes, only nodes itself may be changed.</p>&#13;
+&#13;
+<p>Only constant memory is allowed.</p>&#13;
+&#13;
+<p>&#13;
+For example,<br/>&#13;
+Given this linked list: <code>1-&gt;2-&gt;3-&gt;4-&gt;5</code>&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+For <i>k</i> = 2, you should return: <code>2-&gt;1-&gt;4-&gt;3-&gt;5</code>&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+For <i>k</i> = 3, you should return: <code>3-&gt;2-&gt;1-&gt;4-&gt;5</code>&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/linked-list/">Linked List</a>
+                  
+                </span>
+              
+            

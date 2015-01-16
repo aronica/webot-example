@@ -1,0 +1,34 @@
+
+              <p/><p>&#13;
+Given a 2D board and a word, find if the word exists in the grid.&#13;
+</p>&#13;
+<p>&#13;
+The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+For example,<br/>&#13;
+Given <b>board</b> = &#13;
+</p><pre>&#13;
+[&#13;
+  ["ABCE"],&#13;
+  ["SFCS"],&#13;
+  ["ADEE"]&#13;
+]&#13;
+</pre>&#13;
+&#13;
+<b>word</b> = <code>"ABCCED"</code>, -&gt; returns <code>true</code>,<br/>&#13;
+<b>word</b> = <code>"SEE"</code>, -&gt; returns <code>true</code>,<br/>&#13;
+<b>word</b> = <code>"ABCB"</code>, -&gt; returns <code>false</code>.<br/>&#13;
+
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/backtracking/">Backtracking</a>
+                  
+                </span>
+              
+            

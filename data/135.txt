@@ -1,0 +1,23 @@
+
+              <p/><p>&#13;
+There are <i>N</i> children standing in a line. Each child is assigned a rating value. &#13;
+</p>&#13;
+<p>&#13;
+You are giving candies to these children subjected to the following requirements:&#13;
+</p>&#13;
+<ul>&#13;
+<li>Each child must have at least one candy.</li>&#13;
+<li>Children with a higher rating get more candies than their neighbors.</li>&#13;
+</ul>&#13;
+<p>&#13;
+What is the minimum candies you must give?&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/greedy/">Greedy</a>
+                  
+                </span>
+              
+            

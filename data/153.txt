@@ -1,0 +1,19 @@
+
+              <p/><p>Suppose a sorted array is rotated at some pivot unknown to you beforehand.</p>&#13;
+&#13;
+<p>(i.e., <code>0 1 2 4 5 6 7</code> might become <code>4 5 6 7 0 1 2</code>).</p>&#13;
+&#13;
+<p>Find the minimum element.</p>&#13;
+&#13;
+<p>You may assume no duplicate exists in the array.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/binary-search/">Binary Search</a>
+                  
+                </span>
+              
+            

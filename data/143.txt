@@ -1,0 +1,21 @@
+
+              <p/><p>&#13;
+Given a singly linked list <i>L</i>: <i>L</i><sub>0</sub>→<i>L</i><sub>1</sub>→…→<i>L</i><sub><i>n</i>-1</sub>→<i>L</i><sub>n</sub>,<br/>&#13;
+reorder it to: <i>L</i><sub>0</sub>→<i>L</i><sub><i>n</i></sub>→<i>L</i><sub>1</sub>→<i>L</i><sub><i>n</i>-1</sub>→<i>L</i><sub>2</sub>→<i>L</i><sub><i>n</i>-2</sub>→…&#13;
+</p>&#13;
+&#13;
+<p>You must do this in-place without altering the nodes' values.</p>&#13;
+&#13;
+<p>&#13;
+For example,<br/>&#13;
+Given <code>{1,2,3,4}</code>, reorder it to <code>{1,4,2,3}</code>.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/linked-list/">Linked List</a>
+                  
+                </span>
+              
+            

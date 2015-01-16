@@ -1,0 +1,27 @@
+
+              <p/><p>&#13;
+Given a string <i>s</i>, partition <i>s</i> such that every substring of the partition is a palindrome.&#13;
+</p>&#13;
+<p>&#13;
+Return all possible palindrome partitioning of <i>s</i>.&#13;
+</p>&#13;
+<p>&#13;
+For example, given <i>s</i> = <code>"aab"</code>,<br/>&#13;
+&#13;
+Return&#13;
+</p><pre>&#13;
+  [&#13;
+    ["aa","b"],&#13;
+    ["a","a","b"]&#13;
+  ]&#13;
+</pre>&#13;
+
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/backtracking/">Backtracking</a>
+                  
+                </span>
+              
+            

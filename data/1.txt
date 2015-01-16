@@ -1,0 +1,22 @@
+
+              <p/><p>Given an array of integers, find two numbers such that they add up to a specific target number.</p>&#13;
+&#13;
+<p>The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.</p>&#13;
+&#13;
+<p>You may assume that each input would have exactly one solution.</p>&#13;
+&#13;
+<p style="font-family:monospace">&#13;
+<b>Input:</b> numbers={2, 7, 11, 15}, target=9<br/>&#13;
+<b>Output:</b> index1=1, index2=2&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/hash-table/">Hash Table</a>
+                  
+                </span>
+              
+            

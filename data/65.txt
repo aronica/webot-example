@@ -1,0 +1,35 @@
+
+              <p/><p>Validate if a given string is numeric.</p>&#13;
+&#13;
+<p>&#13;
+Some examples:<br/>&#13;
+<code>"0"</code> =&gt; <code>true</code><br/>&#13;
+<code>"   0.1  "</code> =&gt; <code>true</code><br/>&#13;
+<code>"abc"</code> =&gt; <code>false</code><br/>&#13;
+<code>"1 a"</code> =&gt; <code>false</code><br/>&#13;
+<code>"2e10"</code> =&gt; <code>true</code><br/>&#13;
+</p>&#13;
+&#13;
+<p><b>Note:</b> It is intended for the problem statement to be ambiguous. You should gather all requirements up front before implementing one.&#13;
+</p>&#13;
+&#13;
+&#13;
+<p class="showspoilers"><a href="#" onclick="showSpoilers(this); return false;">click to show spoilers.</a></p>&#13;
+&#13;
+<div class="spoilers">&#13;
+<p>&#13;
+<b><font color="red">Update (2014-12-06):</font></b><br/>&#13;
+New test cases had been added. Thanks <b>unfounder</b>'s contribution.&#13;
+</p>&#13;
+</div>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/math/">Math</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
+                  
+                </span>
+              
+            

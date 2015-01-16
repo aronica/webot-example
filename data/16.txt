@@ -1,0 +1,19 @@
+
+              <p/><p>Given an array <i>S</i> of <i>n</i> integers, find three integers in <i>S</i> such that the sum is closest to a given number, target. Return the sum of the three integers. You may assume that each input would have exactly one solution.</p>&#13;
+&#13;
+<pre>&#13;
+    For example, given array S = {-1 2 1 -4}, and target = 1.&#13;
+&#13;
+    The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).&#13;
+</pre>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/two-pointers/">Two Pointers</a>
+                  
+                </span>
+              
+            

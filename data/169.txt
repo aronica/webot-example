@@ -1,0 +1,19 @@
+
+              <p/><p>Given an array of size <i>n</i>, find the majority element. The majority element is the element that appears more than <code>⌊ n/2 ⌋</code> times.</p>&#13;
+&#13;
+<p>You may assume that the array is non-empty and the majority element always exist in the array.</p>&#13;
+&#13;
+<p><b>Credits:</b><br/>Special thanks to <a href="https://oj.leetcode.com/discuss/user/ts">@ts</a> for adding this problem and creating all test cases.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/divide-and-conquer/">Divide and Conquer</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/bit-manipulation/">Bit Manipulation</a>
+                  
+                </span>
+              
+            

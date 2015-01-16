@@ -1,0 +1,30 @@
+
+              <p/><p>&#13;
+Given a string <i>s</i> and a dictionary of words <i>dict</i>, add spaces in <i>s</i> to construct a sentence where each word is a valid dictionary word.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+Return all such possible sentences.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+For example, given<br/>&#13;
+<i>s</i> = <code>"catsanddog"</code>,<br/>&#13;
+<i>dict</i> = <code>["cat", "cats", "and", "sand", "dog"]</code>.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+A solution is <code>["cats and dog", "cat sand dog"]</code>.&#13;
+</p>&#13;
+
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/backtracking/">Backtracking</a>
+                  
+                </span>
+              
+            

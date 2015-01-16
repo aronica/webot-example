@@ -1,0 +1,25 @@
+
+              <p/><p>&#13;
+Given two words <i>word1</i> and <i>word2</i>, find the minimum number of steps required to convert <i>word1</i> to <i>word2</i>. (each operation is counted as 1 step.)&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+You have the following 3 operations permitted on a word:&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+a) Insert a character<br/>&#13;
+b) Delete a character<br/>&#13;
+c) Replace a character<br/>&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
+                  
+                </span>
+              
+            

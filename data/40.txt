@@ -1,0 +1,34 @@
+
+              <p/><p>&#13;
+Given a collection of candidate numbers (<b><i>C</i></b>) and a target number (<b><i>T</i></b>), find all unique combinations in <b><i>C</i></b> where the candidate numbers sums to <b><i>T</i></b>.&#13;
+</p>&#13;
+&#13;
+<p>Each number in <b><i>C</i></b> may only be used <b>once</b> in the combination.&#13;
+</p>&#13;
+<p><b>Note:</b><br/>&#13;
+</p><ul>&#13;
+<li>All numbers (including target) will be positive integers.</li>&#13;
+<li>Elements in a combination (<i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, … , <i>a</i><sub>k</sub>) must be in non-descending order. (ie, <i>a</i><sub>1</sub> ≤ <i>a</i><sub>2</sub> ≤ … ≤ <i>a</i><sub>k</sub>).</li>&#13;
+<li>The solution set must not contain duplicate combinations.</li>&#13;
+</ul>&#13;
+&#13;
+&#13;
+<p>&#13;
+For example, given candidate set <code>10,1,2,7,6,1,5</code> and target <code>8</code>, <br/>&#13;
+A solution set is: <br/>&#13;
+<code>[1, 7]</code> <br/>&#13;
+<code>[1, 2, 5]</code> <br/>&#13;
+<code>[2, 6]</code> <br/>&#13;
+<code>[1, 1, 6]</code> <br/>&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/backtracking/">Backtracking</a>
+                  
+                </span>
+              
+            

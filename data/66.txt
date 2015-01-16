@@ -1,0 +1,15 @@
+
+              <p/><p>Given a non-negative number represented as an array of digits, plus one to the number.</p>&#13;
+&#13;
+<p>The digits are stored such that the most significant digit is at the head of the list.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/math/">Math</a>
+                  
+                </span>
+              
+            

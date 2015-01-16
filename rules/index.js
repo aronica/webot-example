@@ -10,6 +10,9 @@ var search = require('../lib/support').search;
 var geo2loc = require('../lib/support').geo2loc;
 
 var package_info = require('../package.json');
+var meta = require("../lib/meta");
+var hosts = "https://oj.leetcode.com" ;
+var fs = require("fs");
 
 /**
  * 初始化路由规则
@@ -30,14 +33,13 @@ module.exports = exports = function(webot){
         pic: 'https://raw.github.com/node-webot/webot-example/master/qrcode.jpg',
         url: 'https://github.com/node-webot/webot-example',
         description: [
-          '你可以试试以下指令:',
-            'game : 玩玩猜数字的游戏吧',
-            's+空格+关键词 : 我会帮你百度搜索喔',
-            's+空格+nde : 可以试试我的纠错能力',
-            '使用「位置」发送你的经纬度',
-            '重看本指令请回复help或问号',
-            '更多指令请回复more',
-            'PS: 点击下面的「查看全文」将跳转到我的github页'
+         '随时随地在手机上刷oj.leetcode.com算法题',
+         '帮助：',
+         '[1].?,h,help返回此帮助',
+         '[2].1,2,3,4...输入数字返回对于ID的题目',
+         '[3].r,R 随机返回一道题目',
+         '[4].top,Top返回热门列表',
+         '[5].dp,string,hashtable,tree,math...返回指定标签下随机一道题'
         ].join('\n')
       };
       // 返回值如果是list，则回复图文消息列表
@@ -56,6 +58,21 @@ module.exports = exports = function(webot){
 
     return ['我的主人还没教我太多东西,你可以考虑帮我加下.\n可用的指令:\n'+ reply,
       '没有更多啦！当前可用指令：\n' + reply];
+  });
+
+  webot.set("id",{
+     description:"1,2,3,4...输入数字返回对于ID的题目"
+     pattern:/^[0-9]*[1-9][0-9]*$/,
+     handler:function(info){
+        var data = meta[info];
+        if (data){
+           var content = fs.readFileSync("../data/"+info+".txt");
+           var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.github.com/node-webot/webot-example/master/qrcode.jpg', url: hosts+data["url"]};
+           return reply;
+        } else{
+          return "沒有找到"+info+"对应的题目";
+        }
+     }
   });
 
   webot.set('who_are_you', {
@@ -81,43 +98,6 @@ module.exports = exports = function(webot){
   // 简单的纯文本对话，可以用单独的 yaml 文件来定义
   require('js-yaml');
   webot.dialog(__dirname + '/dialog.yaml');
-
-  // 支持一次性加多个（方便后台数据库存储规则）
-  webot.set([{
-    name: 'morning',
-    description: '打个招呼吧, 发送: good morning',
-    pattern: /^(早上?好?|(good )?moring)[啊\!！\.。]*$/i,
-    handler: function(info){
-      var d = new Date();
-      var h = d.getHours();
-      if (h < 3) return '[嘘] 我这边还是深夜呢，别吵着大家了';
-      if (h < 5) return '这才几点钟啊，您就醒了？';
-      if (h < 7) return '早啊官人！您可起得真早呐~ 给你请安了！\n 今天想参加点什么活动呢？';
-      if (h < 9) return 'Morning, sir! 新的一天又开始了！您今天心情怎么样？';
-      if (h < 12) return '这都几点了，还早啊...';
-      if (h < 14) return '人家中午饭都吃过了，还早呐？';
-      if (h < 17) return '如此美好的下午，是很适合出门逛逛的';
-      if (h < 21) return '早，什么早？找碴的找？';
-      if (h >= 21) return '您还是早点睡吧...';
-    }
-  }, {
-    name: 'time',
-    description: '想知道几点吗? 发送: time',
-    pattern: /^(几点了|time)\??$/i,
-    handler: function(info) {
-      var d = new Date();
-      var h = d.getHours();
-      var t = '现在是服务器时间' + h + '点' + d.getMinutes() + '分';
-      if (h < 4 || h > 22) return t + '，夜深了，早点睡吧 [月亮]';
-      if (h < 6) return t + '，您还是再多睡会儿吧';
-      if (h < 9) return t + '，又是一个美好的清晨呢，今天准备去哪里玩呢？';
-      if (h < 12) return t + '，一日之计在于晨，今天要做的事情安排好了吗？';
-      if (h < 15) return t + '，午后的冬日是否特别动人？';
-      if (h < 19) return t + '，又是一个充满活力的下午！今天你的任务完成了吗？';
-      if (h <= 22) return t + '，这样一个美好的夜晚，有没有去看什么演出？';
-      return t;
-    }
-  }]);
 
   // 等待下一次回复
   webot.set('guess my sex', {

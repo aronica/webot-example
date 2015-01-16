@@ -1,0 +1,31 @@
+
+              <p/><p>Given an absolute path for a file (Unix-style), simplify it.</p>&#13;
+&#13;
+<p>For example,<br/>&#13;
+<b>path</b> = <code>"/home/"</code>, =&gt; <code>"/home"</code><br/>&#13;
+<b>path</b> = <code>"/a/./b/../../c/"</code>, =&gt; <code>"/c"</code><br/>&#13;
+</p>&#13;
+&#13;
+<p class="showspoilers"><a href="#" onclick="showSpoilers(this); return false;">click to show corner cases.</a></p>&#13;
+&#13;
+<div class="spoilers"><b>Corner Cases:</b>&#13;
+&#13;
+<p>&#13;
+</p><ul>&#13;
+<li>Did you consider the case where <b>path</b> = <code>"/../"</code>?<br/>&#13;
+In this case, you should return <code>"/"</code>.</li>&#13;
+<li>Another corner case is the path might contain multiple slashes <code>'/'</code> together, such as <code>"/home//foo/"</code>.<br/>&#13;
+In this case, you should ignore redundant slashes and return <code>"/home/foo"</code>.</li>&#13;
+&#13;
+</ul></div>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/stack/">Stack</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
+                  
+                </span>
+              
+            

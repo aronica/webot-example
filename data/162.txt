@@ -1,0 +1,29 @@
+
+              <p/><p>A peak element is an element that is greater than its neighbors.</p>&#13;
+&#13;
+<p>Given an input array where <code>num[i] ≠ num[i+1]</code>, find a peak element and return its index.</p>&#13;
+&#13;
+<p>The array may contain multiple peaks, in that case return the index to any one of the peaks is fine.</p>&#13;
+&#13;
+<p>You may imagine that <code>num[-1] = num[n] = -∞</code>.</p>&#13;
+&#13;
+<p>For example, in array <code>[1, 2, 3, 1]</code>, 3 is a peak element and your function should return the index number 2.</p>&#13;
+&#13;
+<p class="showspoilers"><a href="#" onclick="showSpoilers(this); return false;">click to show spoilers.</a></p>&#13;
+&#13;
+<div class="spoilers"><b>Note:</b>&#13;
+<p>Your solution should be in logarithmic complexity.</p>&#13;
+</div>&#13;
+&#13;
+<p><b>Credits:</b><br/>Special thanks to <a href="https://oj.leetcode.com/discuss/user/ts">@ts</a> for adding this problem and creating all test cases.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/binary-search/">Binary Search</a>
+                  
+                </span>
+              
+            

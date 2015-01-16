@@ -1,0 +1,15 @@
+
+              <p/><p>Given a roman numeral, convert it to an integer.</p>&#13;
+&#13;
+<p>Input is guaranteed to be within the range from 1 to 3999.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/math/">Math</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
+                  
+                </span>
+              
+            

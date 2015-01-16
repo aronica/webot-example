@@ -1,0 +1,30 @@
+
+              <p/><p>Follow up for "Unique Paths":</p>&#13;
+&#13;
+<p>Now consider if some obstacles are added to the grids. How many unique paths would there be?</p>&#13;
+&#13;
+<p>An obstacle and empty space is marked as <code>1</code> and <code>0</code> respectively in the grid.</p>&#13;
+&#13;
+<p>For example,<br/>&#13;
+</p><p>There is one obstacle in the middle of a 3x3 grid as illustrated below.</p>&#13;
+<pre>&#13;
+[&#13;
+  [0,0,0],&#13;
+  [0,1,0],&#13;
+  [0,0,0]&#13;
+]&#13;
+</pre>&#13;
+<p>The total number of unique paths is <code>2</code>.</p>&#13;
+&#13;
+<p><b>Note:</b> <i>m</i> and <i>n</i> will be at most 100.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
+                  
+                </span>
+              
+            

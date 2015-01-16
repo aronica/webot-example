@@ -1,0 +1,23 @@
+
+              <p/><p>&#13;
+Follow up for "Remove Duplicates":<br/>&#13;
+What if duplicates are allowed at most <i>twice</i>?</p>&#13;
+&#13;
+<p>&#13;
+For example,<br/>&#13;
+Given sorted array A = <code>[1,1,1,2,2,3]</code>,&#13;
+</p>&#13;
+<p>&#13;
+Your function should return length = <code>5</code>, and A is now <code>[1,1,2,2,3]</code>.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/two-pointers/">Two Pointers</a>
+                  
+                </span>
+              
+            

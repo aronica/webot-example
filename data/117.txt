@@ -1,0 +1,39 @@
+
+              <p/><p>Follow up for problem "<i>Populating Next Right Pointers in Each Node</i>".</p>&#13;
+<p>What if the given tree could be any binary tree? Would your previous solution still work?</p>&#13;
+<p>&#13;
+<b>Note:</b>&#13;
+</p><ul><li>You may only use constant extra space.</li></ul>&#13;
+&#13;
+<p>&#13;
+For example,<br/>&#13;
+Given the following binary tree,<br/>&#13;
+</p><pre>&#13;
+         1&#13;
+       /  \&#13;
+      2    3&#13;
+     / \    \&#13;
+    4   5    7&#13;
+</pre>&#13;
+&#13;
+<p>&#13;
+After calling your function, the tree should look like:<br/>&#13;
+</p><pre>&#13;
+         1 -&gt; NULL&#13;
+       /  \&#13;
+      2 -&gt; 3 -&gt; NULL&#13;
+     / \    \&#13;
+    4-&gt; 5 -&gt; 7 -&gt; NULL&#13;
+</pre>&#13;
+
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/tree/">Tree</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/depth-first-search/">Depth-first Search</a>
+                  
+                </span>
+              
+            

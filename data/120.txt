@@ -1,0 +1,33 @@
+
+              <p/><p>Given a triangle, find the minimum path sum from top to bottom. Each step you may move to adjacent numbers on the row below.</p>&#13;
+&#13;
+<p>&#13;
+For example, given the following triangle<br/>&#13;
+</p><pre>&#13;
+[&#13;
+     [<font color="red">2</font>],&#13;
+    [<font color="red">3</font>,4],&#13;
+   [6,<font color="red">5</font>,7],&#13;
+  [4,<font color="red">1</font>,8,3]&#13;
+]&#13;
+</pre>&#13;
+&#13;
+<p>&#13;
+The minimum path sum from top to bottom is <code>11</code> (i.e., <font color="red">2</font> + <font color="red">3</font> + <font color="red">5</font> + <font color="red">1</font> = 11).&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+<b>Note:</b><br/>&#13;
+Bonus point if you are able to do this using only <i>O</i>(<i>n</i>) extra space, where <i>n</i> is the total number of rows in the triangle.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
+                  
+                </span>
+              
+            

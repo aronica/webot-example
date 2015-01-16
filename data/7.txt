@@ -1,0 +1,34 @@
+
+              <p/><p>Reverse digits of an integer.</p>&#13;
+&#13;
+<p style="font-family:monospace">&#13;
+<b>Example1:</b> x =  123, return  321<br/>&#13;
+<b>Example2:</b> x = -123, return -321&#13;
+</p>&#13;
+&#13;
+<p class="showspoilers"><a href="#" onclick="showSpoilers(this); return false;">click to show spoilers.</a></p>&#13;
+&#13;
+<div class="spoilers"><b>Have you thought about this?</b>&#13;
+&#13;
+<p>Here are some good questions to ask before coding. Bonus points for you if you have already thought through this!</p>&#13;
+&#13;
+<p>If the integer's last digit is 0, what should the output be? ie, cases such as 10, 100.</p>&#13;
+&#13;
+<p>Did you notice that the reversed integer might overflow? Assume the input is a 32-bit integer, then the reverse of 1000000003 overflows. How should you handle such cases?</p>&#13;
+&#13;
+<p>For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.</p>&#13;
+&#13;
+<p>&#13;
+<b><font color="red">Update (2014-11-10):</font></b><br/>&#13;
+Test cases had been added to test the overflow behavior.&#13;
+</p>&#13;
+</div>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/math/">Math</a>
+                  
+                </span>
+              
+            

@@ -1,0 +1,27 @@
+
+              <p/><p>&#13;
+The string <code>"PAYPALISHIRING"</code> is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)&#13;
+</p><pre>&#13;
+P   A   H   N&#13;
+A P L S I I G&#13;
+Y   I   R&#13;
+</pre>&#13;
+&#13;
+And then read line by line: <code>"PAHNAPLSIIGYIR"</code>&#13;
+&#13;
+<p>&#13;
+Write the code that will take a string and make this conversion given a number of rows:&#13;
+&#13;
+</p><pre>string convert(string text, int nRows);</pre>&#13;
+&#13;
+<code>convert("PAYPALISHIRING", 3)</code> should return <code>"PAHNAPLSIIGYIR"</code>.&#13;
+
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
+                  
+                </span>
+              
+            

@@ -1,0 +1,12 @@
+
+              <p/><p>Write a function to find the longest common prefix string amongst an array of strings.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
+                  
+                </span>
+              
+            

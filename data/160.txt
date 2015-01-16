@@ -1,0 +1,32 @@
+
+              <p/><p>Write a program to find the node at which the intersection of two singly linked lists begins.</p>&#13;
+&#13;
+<p>For example, the following two linked lists: </p>&#13;
+<pre>&#13;
+A:          a1 → a2&#13;
+                   ↘&#13;
+                     c1 → c2 → c3&#13;
+                   ↗            &#13;
+B:     b1 → b2 → b3&#13;
+</pre>&#13;
+<p>begin to intersect at node c1.</p>&#13;
+&#13;
+<p><b>Notes:</b>&#13;
+</p><ul>&#13;
+<li>If the two linked lists have no intersection at all, return <code>null</code>.</li>&#13;
+<li>The linked lists must retain their original structure after the function returns. </li>&#13;
+<li>You may assume there are no cycles anywhere in the entire linked structure.</li>&#13;
+<li>Your code should preferably run in O(n) time and use only O(1) memory.</li>&#13;
+</ul>&#13;
+&#13;
+&#13;
+<p><b>Credits:</b><br/>Special thanks to <a href="https://oj.leetcode.com/discuss/user/stellari">@stellari</a> for adding this problem and creating all test cases.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/linked-list/">Linked List</a>
+                  
+                </span>
+              
+            
