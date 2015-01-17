@@ -1,31 +1,3 @@
-
-              <p/><p>Given an array <i>S</i> of <i>n</i> integers, are there elements <i>a</i>, <i>b</i>, <i>c</i>, and <i>d</i> in <i>S</i> such that <i>a</i> + <i>b</i> + <i>c</i> + <i>d</i> = target? Find all unique quadruplets in the array which gives the sum of target.</p>&#13;
-&#13;
-<p><b>Note:</b><br/>&#13;
-</p><ul>&#13;
-<li>Elements in a quadruplet (<i>a</i>,<i>b</i>,<i>c</i>,<i>d</i>) must be in non-descending order. (ie, <i>a</i> ≤ <i>b</i> ≤ <i>c</i> ≤ <i>d</i>)</li>&#13;
-<li>The solution set must not contain duplicate quadruplets.</li>&#13;
-</ul>&#13;
-&#13;
-&#13;
-<pre>&#13;
-    For example, given array S = {1 0 -1 0 -2 2}, and target = 0.&#13;
-&#13;
-    A solution set is:&#13;
-    (-1,  0, 0, 1)&#13;
-    (-2, -1, 1, 2)&#13;
-    (-2,  0, 0, 2)&#13;
-</pre>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/hash-table/">Hash Table</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/two-pointers/">Two Pointers</a>
-                  
-                </span>
-              
-            
+Given an array S of n integers, are there elements a , b , c , and d in S such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.
+Note:
+Tags:Array,Hash Table,Two Pointers

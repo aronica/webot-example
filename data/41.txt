@@ -1,23 +1,4 @@
-
-              <p/><p>&#13;
-Given an unsorted integer array, find the first missing positive integer.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-For example,<br/>&#13;
-Given <code>[1,2,0]</code> return <code>3</code>,<br/>&#13;
-and <code>[3,4,-1,1]</code> return <code>2</code>.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-Your algorithm should run in <i>O</i>(<i>n</i>) time and uses constant space.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
-                  
-                </span>
-              
-            
+Given an unsorted integer array, find the first missing positive integer.
+For example, Given [1,2,0] return 3 , and [3,4,-1,1] return 2 .
+Your algorithm should run in O ( n ) time and uses constant space.
+Tags:Array

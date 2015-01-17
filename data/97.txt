@@ -1,26 +1,4 @@
-
-              <p/><p>&#13;
-Given <i>s1</i>, <i>s2</i>, <i>s3</i>, find whether <i>s3</i> is formed by the interleaving of <i>s1</i> and <i>s2</i>.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-For example,<br/>&#13;
-Given:<br/>&#13;
-<i>s1</i> = <code>"aabcc"</code>,<br/>&#13;
-<i>s2</i> = <code>"dbbca"</code>,&#13;
-</p>&#13;
-<p>&#13;
-When <i>s3</i> = <code>"aadbbcbcac"</code>, return true.<br/>&#13;
-When <i>s3</i> = <code>"aadbbbaccc"</code>, return false.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+Given s1 , s2 , s3 , find whether s3 is formed by the interleaving of s1 and s2 .
+For example, Given: s1 = "aabcc" , s2 = "dbbca" ,
+When s3 = "aadbbcbcac" , return true. When s3 = "aadbbbaccc" , return false.
+Tags:Dynamic Programming,String

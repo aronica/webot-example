@@ -1,18 +1,4 @@
-
-              <p/><p>Follow up for "Search in Rotated Sorted Array":<br/>&#13;
-What if <i>duplicates</i> are allowed?</p>&#13;
-&#13;
-<p>Would this affect the run-time complexity? How and why?</p>&#13;
-&#13;
-<p>Write a function to determine if a given target is in the array.</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/binary-search/">Binary Search</a>
-                  
-                </span>
-              
-            
+Follow up for "Search in Rotated Sorted Array": What if duplicates are allowed?
+Would this affect the run-time complexity? How and why?
+Write a function to determine if a given target is in the array.
+Tags:Array,Binary Search

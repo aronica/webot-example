@@ -1,21 +1,5 @@
-
-              <p/><p>Given a string <i>s</i> consists of upper/lower-case alphabets and empty space characters <code>' '</code>, return the length of last word in the string.</p>&#13;
-&#13;
-<p>If the last word does not exist, return 0.</p>&#13;
-&#13;
-<p><b>Note:</b> A word is defined as a character sequence consists of non-space characters only.</p>&#13;
-&#13;
-<p>&#13;
-For example, <br/>&#13;
-Given <i>s</i> = <code>"Hello World"</code>,<br/>&#13;
-return <code>5</code>.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+Given a string s consists of upper/lower-case alphabets and empty space characters ' ' , return the length of last word in the string.
+If the last word does not exist, return 0.
+Note: A word is defined as a character sequence consists of non-space characters only.
+For example, Given s = "Hello World" , return 5 .
+Tags:String

@@ -1,11 +1,2 @@
-
-              <p/><p>Given a string <i>S</i>, find the longest palindromic substring in <i>S</i>. You may assume that the maximum length of <i>S</i> is 1000, and there exists one unique longest palindromic substring.</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+Given a string S , find the longest palindromic substring in S . You may assume that the maximum length of S is 1000, and there exists one unique longest palindromic substring.
+Tags:String

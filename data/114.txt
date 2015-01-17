@@ -1,48 +1,5 @@
-
-              <p/><p>&#13;
-Given a binary tree, flatten it to a linked list in-place.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-For example,<br/>&#13;
-Given&#13;
-</p><pre>&#13;
-         1&#13;
-        / \&#13;
-       2   5&#13;
-      / \   \&#13;
-     3   4   6&#13;
-</pre>&#13;
-&#13;
-&#13;
-The flattened tree should look like:<br/>&#13;
-<pre>&#13;
-   1&#13;
-    \&#13;
-     2&#13;
-      \&#13;
-       3&#13;
-        \&#13;
-         4&#13;
-          \&#13;
-           5&#13;
-            \&#13;
-             6&#13;
-</pre>&#13;
-&#13;
-<p class="showspoilers"><a href="#" onclick="showSpoilers(this); return false;">click to show hints.</a></p>&#13;
-&#13;
-<div class="spoilers"><b>Hints:</b>&#13;
-<p>If you notice carefully in the flattened tree, each node's right child points to the next node of a pre-order traversal.</p>&#13;
-</div>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/tree/">Tree</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/depth-first-search/">Depth-first Search</a>
-                  
-                </span>
-              
-            
+Given a binary tree, flatten it to a linked list in-place.
+For example, Given
+click to show hints.
+If you notice carefully in the flattened tree, each node's right child points to the next node of a pre-order traversal.
+Tags:Tree,Depth-first Search

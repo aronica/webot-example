@@ -1,28 +1,4 @@
-
-              <p/><p>&#13;
-You are given a string, <b>S</b>, and a list of words, <b>L</b>, that are all of the same length. Find all starting indices of substring(s) in S that is a concatenation of each word in L exactly once and without any intervening characters.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-For example, given:<br/>&#13;
-<b>S</b>: <code>"barfoothefoobarman"</code><br/>&#13;
-<b>L</b>: <code>["foo", "bar"]</code>&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-You should return the indices: <code>[0,9]</code>.<br/>&#13;
-(order does not matter).&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/hash-table/">Hash Table</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/two-pointers/">Two Pointers</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+You are given a string, S , and a list of words, L , that are all of the same length. Find all starting indices of substring(s) in S that is a concatenation of each word in L exactly once and without any intervening characters.
+For example, given: S : "barfoothefoobarman" L : ["foo", "bar"]
+You should return the indices: [0,9] . (order does not matter).
+Tags:Hash Table,Two Pointers,String

@@ -1,36 +1,6 @@
-
-              <p/><p>&#13;
-A message containing letters from <code>A-Z</code> is being encoded to numbers using the following mapping:&#13;
-</p>&#13;
-&#13;
-<pre>&#13;
-'A' -&gt; 1&#13;
-'B' -&gt; 2&#13;
-...&#13;
-'Z' -&gt; 26&#13;
-</pre>&#13;
-&#13;
-<p>&#13;
-Given an encoded message containing digits, determine the total number of ways to decode it.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-For example,<br/>&#13;
-Given encoded message <code>"12"</code>,&#13;
-it could be decoded as <code>"AB"</code> (1 2) or <code>"L"</code> (12).&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-The number of ways decoding <code>"12"</code> is 2.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+A message containing letters from A-Z is being encoded to numbers using the following mapping:
+Given an encoded message containing digits, determine the total number of ways to decode it.
+For example, Given encoded message "12" ,
+it could be decoded as "AB" (1 2) or "L" (12).
+The number of ways decoding "12" is 2.
+Tags:Dynamic Programming,String

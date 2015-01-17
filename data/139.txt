@@ -1,22 +1,4 @@
-
-              <p/><p>&#13;
-Given a string <i>s</i> and a dictionary of words <i>dict</i>, determine if <i>s</i> can be segmented into a space-separated sequence of one or more dictionary words.&#13;
-</p>&#13;
-&#13;
-<p>For example, given<br/>&#13;
-<i>s</i> = <code>"leetcode"</code>,<br/>&#13;
-<i>dict</i> = <code>["leet", "code"]</code>.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-Return true because <code>"leetcode"</code> can be segmented as <code>"leet code"</code>.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
-                  
-                </span>
-              
-            
+Given a string s and a dictionary of words dict , determine if s can be segmented into a space-separated sequence of one or more dictionary words.
+For example, given s = "leetcode" , dict = ["leet", "code"] .
+Return true because "leetcode" can be segmented as "leet code" .
+Tags:Dynamic Programming

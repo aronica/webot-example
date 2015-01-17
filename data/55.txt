@@ -1,29 +1,6 @@
-
-              <p/><p>&#13;
-Given an array of non-negative integers, you are initially positioned at the first index of the array.&#13;
-</p>&#13;
-<p>&#13;
-Each element in the array represents your maximum jump length at that position. &#13;
-</p>&#13;
-<p>&#13;
-Determine if you are able to reach the last index.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-For example:<br/>&#13;
-A = <code>[2,3,1,1,4]</code>, return <code>true</code>.&#13;
-</p>&#13;
-<p>&#13;
-A = <code>[3,2,1,0,4]</code>, return <code>false</code>.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/greedy/">Greedy</a>
-                  
-                </span>
-              
-            
+Given an array of non-negative integers, you are initially positioned at the first index of the array.
+Each element in the array represents your maximum jump length at that position.
+Determine if you are able to reach the last index.
+For example: A = [2,3,1,1,4] , return true .
+A = [3,2,1,0,4] , return false .
+Tags:Array,Greedy

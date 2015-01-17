@@ -1,20 +1,3 @@
-
-              <p/><p>&#13;
-Find the contiguous subarray within an array (containing at least one number) which has the largest product.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-For example, given the array <code>[2,3,-2,4]</code>,<br/>&#13;
-the contiguous subarray <code>[2,3]</code> has the largest product = <code>6</code>.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
-                  
-                </span>
-              
-            
+Find the contiguous subarray within an array (containing at least one number) which has the largest product.
+For example, given the array [2,3,-2,4] , the contiguous subarray [2,3] has the largest product = 6 .
+Tags:Array,Dynamic Programming

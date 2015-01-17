@@ -1,25 +1,3 @@
-
-              <p/><p>Given <i>numRows</i>, generate the first <i>numRows</i> of Pascal's triangle.</p>&#13;
-&#13;
-<p>&#13;
-For example, given <i>numRows</i> = 5,<br/>&#13;
-Return&#13;
-</p><pre>&#13;
-[&#13;
-     [1],&#13;
-    [1,1],&#13;
-   [1,2,1],&#13;
-  [1,3,3,1],&#13;
- [1,4,6,4,1]&#13;
-]&#13;
-</pre>&#13;
-
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
-                  
-                </span>
-              
-            
+Given numRows , generate the first numRows of Pascal's triangle.
+For example, given numRows = 5, Return
+Tags:Array

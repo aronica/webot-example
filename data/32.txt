@@ -1,20 +1,4 @@
-
-              <p/><p>Given a string containing just the characters <code>'('</code> and <code>')'</code>, find the length of the longest valid (well-formed) parentheses substring.&#13;
-</p>&#13;
-<p>&#13;
-For <code>"(()"</code>, the longest valid parentheses substring is <code>"()"</code>, which has length = 2.&#13;
-</p>&#13;
-<p>&#13;
-Another example is <code>")()())"</code>, where the longest valid parentheses substring is <code>"()()"</code>, which has length = 4.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+Given a string containing just the characters '(' and ')' , find the length of the longest valid (well-formed) parentheses substring.
+For "(()" , the longest valid parentheses substring is "()" , which has length = 2.
+Another example is ")()())" , where the longest valid parentheses substring is "()()" , which has length = 4.
+Tags:Dynamic Programming,String

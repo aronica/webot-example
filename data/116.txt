@@ -1,56 +1,7 @@
-
-              <p/><p>&#13;
-Given a binary tree&#13;
-</p><pre>&#13;
-    struct TreeLinkNode {&#13;
-      TreeLinkNode *left;&#13;
-      TreeLinkNode *right;&#13;
-      TreeLinkNode *next;&#13;
-    }&#13;
-</pre>&#13;
-&#13;
-&#13;
-<p>Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to <code>NULL</code>.</p>&#13;
-&#13;
-<p>Initially, all next pointers are set to <code>NULL</code>.</p>&#13;
-&#13;
-<p>&#13;
-<b>Note:</b>&#13;
-</p><ul>&#13;
-<li>You may only use constant extra space.</li>&#13;
-<li>You may assume that it is a perfect binary tree (ie, all leaves are at the same level, and every parent has two children).</li>&#13;
-</ul>&#13;
-&#13;
-&#13;
-<p>&#13;
-For example,<br/>&#13;
-Given the following perfect binary tree,<br/>&#13;
-</p><pre>&#13;
-         1&#13;
-       /  \&#13;
-      2    3&#13;
-     / \  / \&#13;
-    4  5  6  7&#13;
-</pre>&#13;
-&#13;
-<p>&#13;
-After calling your function, the tree should look like:<br/>&#13;
-</p><pre>&#13;
-         1 -&gt; NULL&#13;
-       /  \&#13;
-      2 -&gt; 3 -&gt; NULL&#13;
-     / \  / \&#13;
-    4-&gt;5-&gt;6-&gt;7 -&gt; NULL&#13;
-</pre>&#13;
-
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/tree/">Tree</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/depth-first-search/">Depth-first Search</a>
-                  
-                </span>
-              
-            
+Given a binary tree
+Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to NULL .
+Initially, all next pointers are set to NULL .
+Note:
+For example, Given the following perfect binary tree,
+After calling your function, the tree should look like:
+Tags:Tree,Depth-first Search

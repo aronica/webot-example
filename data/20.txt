@@ -1,16 +1,3 @@
-
-              <p/><p>Given a string containing just the characters <code>'('</code>, <code>')'</code>, <code>'{'</code>, <code>'}'</code>, <code>'['</code> and <code>']'</code>, determine if the input string is valid.</p>&#13;
-&#13;
-<p>The brackets must close in the correct order, <code>"()"</code> and <code>"()[]{}"</code> are all valid but <code>"(]"</code> and <code>"([)]"</code> are not.</p>&#13;
-
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/stack/">Stack</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+Given a string containing just the characters '(' , ')' , '{' , '}' , '[' and ']' , determine if the input string is valid.
+The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+Tags:Stack,String

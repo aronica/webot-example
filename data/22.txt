@@ -1,22 +1,4 @@
-
-              <p/><p>&#13;
-Given <i>n</i> pairs of parentheses, write a function to generate all combinations of well-formed parentheses.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-For example, given <i>n</i> = 3, a solution set is:&#13;
-</p>&#13;
-<p>&#13;
-<code>"((()))", "(()())", "(())()", "()(())", "()()()"</code>&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/backtracking/">Backtracking</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+For example, given n = 3, a solution set is:
+"((()))", "(()())", "(())()", "()(())", "()()()"
+Tags:Backtracking,String

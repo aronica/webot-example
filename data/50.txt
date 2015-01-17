@@ -1,14 +1,2 @@
-
-              <p/><p>Implement pow(<i>x</i>, <i>n</i>).&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/math/">Math</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/binary-search/">Binary Search</a>
-                  
-                </span>
-              
-            
+Implement pow( x , n ).
+Tags:Math,Binary Search

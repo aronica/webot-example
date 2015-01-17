@@ -1,31 +1,5 @@
-
-              <p/><p>&#13;
-Given <i>n</i> non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-<img src="http://www.leetcode.com/wp-content/uploads/2012/04/histogram.png"/><br/>&#13;
-</p><p style="font-size: 11px">Above is a histogram where width of each bar is 1, given height = <code>[2,1,5,6,2,3]</code>.</p>&#13;
-&#13;
-&#13;
-<p>&#13;
-<img src="http://www.leetcode.com/wp-content/uploads/2012/04/histogram_area.png"/><br/>&#13;
-</p><p style="font-size: 11px">The largest rectangle is shown in the shaded area, which has area = <code>10</code> unit.</p>&#13;
-&#13;
-&#13;
-<p>&#13;
-For example,<br/>&#13;
-Given height = <code>[2,1,5,6,2,3]</code>,<br/>&#13;
-return <code>10</code>.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/stack/">Stack</a>
-                  
-                </span>
-              
-            
+Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
+Above is a histogram where width of each bar is 1, given height = [2,1,5,6,2,3] .
+The largest rectangle is shown in the shaded area, which has area = 10 unit.
+For example, Given height = [2,1,5,6,2,3] , return 10 .
+Tags:Array,Stack

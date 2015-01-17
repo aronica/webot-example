@@ -1,35 +1,5 @@
-
-              <p/><p>&#13;
-Given a 2D board containing <code>'X'</code> and <code>'O'</code>, capture all regions surrounded by <code>'X'</code>.</p>&#13;
-&#13;
-<p>A region is captured by flipping all <code>'O'</code>s into <code>'X'</code>s in that surrounded region.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-For example,<br/>&#13;
-</p><pre>&#13;
-X X X X&#13;
-X O O X&#13;
-X X O X&#13;
-X O X X&#13;
-</pre>&#13;
-&#13;
-&#13;
-<p>&#13;
-After running your function, the board should be:&#13;
-</p><pre>&#13;
-X X X X&#13;
-X X X X&#13;
-X X X X&#13;
-X O X X&#13;
-</pre>&#13;
-
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/breadth-first-search/">Breadth-first Search</a>
-                  
-                </span>
-              
-            
+Given a 2D board containing 'X' and 'O' , capture all regions surrounded by 'X' .
+A region is captured by flipping all 'O' s into 'X' s in that surrounded region.
+For example,
+After running your function, the board should be:
+Tags:Breadth-first Search

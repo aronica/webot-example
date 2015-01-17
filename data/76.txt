@@ -1,34 +1,6 @@
-
-              <p/><p>&#13;
-Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-For example,<br/>&#13;
-<b>S</b> = <code>"ADOBECODEBANC"</code><br/>&#13;
-<b>T</b> = <code>"ABC"</code><br/>&#13;
-</p>&#13;
-<p>&#13;
-Minimum window is <code>"BANC"</code>.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-<b>Note:</b><br/>&#13;
-If there is no such window in S that covers all characters in T, return the emtpy string <code>""</code>.&#13;
-</p>&#13;
-<p>&#13;
-If there are multiple such windows, you are guaranteed that there will always be only one unique minimum window in S.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/hash-table/">Hash Table</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/two-pointers/">Two Pointers</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).
+For example, S = "ADOBECODEBANC" T = "ABC"
+Minimum window is "BANC" .
+Note: If there is no such window in S that covers all characters in T, return the emtpy string "" .
+If there are multiple such windows, you are guaranteed that there will always be only one unique minimum window in S.
+Tags:Hash Table,Two Pointers,String

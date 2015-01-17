@@ -1,21 +1,4 @@
-
-              <p/><p>Given a string containing only digits, restore it by returning all possible valid IP address combinations.</p>&#13;
-&#13;
-<p>&#13;
-For example:<br/>&#13;
-Given <code>"25525511135"</code>,&#13;
-</p>&#13;
-<p>&#13;
-return <code>["255.255.11.135", "255.255.111.35"]</code>. (Order does not matter)&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/backtracking/">Backtracking</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+Given a string containing only digits, restore it by returning all possible valid IP address combinations.
+For example: Given "25525511135" ,
+return ["255.255.11.135", "255.255.111.35"] . (Order does not matter)
+Tags:Backtracking,String

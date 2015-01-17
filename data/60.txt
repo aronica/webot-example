@@ -1,29 +1,5 @@
-
-              <p/><p>The set <code>[1,2,3,…,<i>n</i>]</code> contains a total of <i>n</i>! unique permutations.</p>&#13;
-&#13;
-<p>By listing and labeling all of the permutations in order,<br/>&#13;
-We get the following sequence (ie, for <i>n</i> = 3):&#13;
-</p><ol>&#13;
-<li><code>"123"</code></li>&#13;
-<li><code>"132"</code></li>&#13;
-<li><code>"213"</code></li>&#13;
-<li><code>"231"</code></li>&#13;
-<li><code>"312"</code></li>&#13;
-<li><code>"321"</code></li>&#13;
-</ol>&#13;
-&#13;
-&#13;
-<p>Given <i>n</i> and <i>k</i>, return the <i>k</i><sup>th</sup> permutation sequence.</p>&#13;
-&#13;
-<p><b>Note:</b> Given <i>n</i> will be between 1 and 9 inclusive.</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/backtracking/">Backtracking</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/math/">Math</a>
-                  
-                </span>
-              
-            
+The set [1,2,3,…, n ] contains a total of n ! unique permutations.
+By listing and labeling all of the permutations in order, We get the following sequence (ie, for n = 3):
+Given n and k , return the k th permutation sequence.
+Note: Given n will be between 1 and 9 inclusive.
+Tags:Backtracking,Math

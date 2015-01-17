@@ -1,17 +1,2 @@
-
-              <p/><p>&#13;
-Merge <i>k</i> sorted linked lists and return it as one sorted list. Analyze and describe its complexity.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/divide-and-conquer/">Divide and Conquer</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/linked-list/">Linked List</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/heap/">Heap</a>
-                  
-                </span>
-              
-            
+Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+Tags:Divide and Conquer,Linked List,Heap

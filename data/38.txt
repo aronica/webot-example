@@ -1,28 +1,5 @@
-
-              <p/><p>The count-and-say sequence is the sequence of integers beginning as follows:<br/>&#13;
-<code>1, 11, 21, 1211, 111221, ...</code>&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-<code>1</code> is read off as <code>"one 1"</code> or <code>11</code>.<br/>&#13;
-<code>11</code> is read off as <code>"two 1s"</code> or <code>21</code>.<br/>&#13;
-<code>21</code> is read off as <code>"one 2</code>, then <code>one 1"</code> or <code>1211</code>.<br/>&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-Given an integer <i>n</i>, generate the <i>n</i><sup>th</sup> sequence.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-Note: The sequence of integers will be represented as a string.&#13;
-</p>&#13;
-
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+The count-and-say sequence is the sequence of integers beginning as follows: 1, 11, 21, 1211, 111221, ...
+1 is read off as "one 1" or 11 . 11 is read off as "two 1s" or 21 . 21 is read off as "one 2 , then one 1" or 1211 .
+Given an integer n , generate the n th sequence.
+Note: The sequence of integers will be represented as a string.
+Tags:String

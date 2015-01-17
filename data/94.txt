@@ -1,53 +1,8 @@
-
-              <p/><p>Given a binary tree, return the <i>inorder</i> traversal of its nodes' values.</p>&#13;
-&#13;
-<p>&#13;
-For example:<br/>&#13;
-Given binary tree <code>{1,#,2,3}</code>,<br/>&#13;
-</p><pre>&#13;
-   1&#13;
-    \&#13;
-     2&#13;
-    /&#13;
-   3&#13;
-</pre>&#13;
-&#13;
-<p>&#13;
-return <code>[1,3,2]</code>.&#13;
-</p>&#13;
-&#13;
-<p><b>Note:</b> Recursive solution is trivial, could you do it iteratively?</p>&#13;
-&#13;
-<p class="showspoilers">confused what <code>"{1,#,2,3}"</code> means? <a href="#" onclick="showSpoilers(this); return false;">&gt; read more on how binary tree is serialized on OJ.</a></p>&#13;
-&#13;
-<div class="spoilers"><br/><b>OJ's Binary Tree Serialization:</b>&#13;
-<p>&#13;
-The serialization of a binary tree follows a level order traversal, where '#' signifies a path terminator where no node exists below.&#13;
-</p>&#13;
-<p>&#13;
-Here's an example:<br/>&#13;
-</p><pre>&#13;
-   1&#13;
-  / \&#13;
- 2   3&#13;
-    /&#13;
-   4&#13;
-    \&#13;
-     5&#13;
-</pre>&#13;
-The above binary tree is serialized as <code>"{1,2,3,#,#,4,#,#,5}"</code>. &#13;
-&#13;
-</div>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/tree/">Tree</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/hash-table/">Hash Table</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/stack/">Stack</a>
-                  
-                </span>
-              
-            
+Given a binary tree, return the inorder traversal of its nodes' values.
+For example: Given binary tree {1,#,2,3} ,
+return [1,3,2] .
+Note: Recursive solution is trivial, could you do it iteratively?
+confused what "{1,#,2,3}" means? > read more on how binary tree is serialized on OJ.
+The serialization of a binary tree follows a level order traversal, where '#' signifies a path terminator where no node exists below.
+Here's an example:
+Tags:Tree,Hash Table,Stack

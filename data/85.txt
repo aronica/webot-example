@@ -1,19 +1,2 @@
-
-              <p/><p>&#13;
-Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing all ones and return its area.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/hash-table/">Hash Table</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/stack/">Stack</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
-                  
-                </span>
-              
-            
+Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing all ones and return its area.
+Tags:Array,Hash Table,Stack,Dynamic Programming

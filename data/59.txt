@@ -1,24 +1,3 @@
-
-              <p/><p>Given an integer <i>n</i>, generate a square matrix filled with elements from 1 to <i>n</i><sup>2</sup> in spiral order.</p>&#13;
-&#13;
-<p>&#13;
-For example,<br/>&#13;
-Given <i>n</i> = <code>3</code>,&#13;
-</p>&#13;
-You should return the following matrix:&#13;
-<pre>&#13;
-[&#13;
- [ 1, 2, 3 ],&#13;
- [ 8, 9, 4 ],&#13;
- [ 7, 6, 5 ]&#13;
-]&#13;
-</pre>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
-                  
-                </span>
-              
-            
+Given an integer n , generate a square matrix filled with elements from 1 to n 2 in spiral order.
+For example, Given n = 3 ,
+Tags:Array

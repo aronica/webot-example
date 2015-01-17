@@ -1,28 +1,5 @@
-
-              <p/><p>&#13;
-Find the contiguous subarray within an array (containing at least one number) which has the largest sum.&#13;
-</p>&#13;
-<p>&#13;
-For example, given the array <code>[−2,1,−3,4,−1,2,1,−5,4]</code>,<br/>&#13;
-the contiguous subarray <code>[4,−1,2,1]</code> has the largest sum = <code>6</code>.&#13;
-</p>&#13;
-&#13;
-<p class="showspoilers"><a href="#" onclick="showSpoilers(this); return false;">click to show more practice.</a></p>&#13;
-&#13;
-<div class="spoilers"><b>More practice:</b>&#13;
-&#13;
-<p>If you have figured out the O(<i>n</i>) solution, try coding another solution using the divide and conquer approach, which is more subtle.</p>&#13;
-</div>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/divide-and-conquer/">Divide and Conquer</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
-                  
-                </span>
-              
-            
+Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
+For example, given the array [−2,1,−3,4,−1,2,1,−5,4] , the contiguous subarray [4,−1,2,1] has the largest sum = 6 .
+click to show more practice.
+If you have figured out the O( n ) solution, try coding another solution using the divide and conquer approach, which is more subtle.
+Tags:Divide and Conquer,Array,Dynamic Programming

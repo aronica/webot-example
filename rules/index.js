@@ -61,13 +61,15 @@ module.exports = exports = function(webot){
   });
 
   webot.set("id",{
-     description:"1,2,3,4...输入数字返回对于ID的题目"
+     description:"1,2,3,4...输入数字返回对于ID的题目",
      pattern:/^[0-9]*[1-9][0-9]*$/,
-     handler:function(info){
+     handler:function(body){
+        var info = body["text"];
         var data = meta[info];
         if (data){
-           var content = fs.readFileSync("../data/"+info+".txt");
-           var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.github.com/node-webot/webot-example/master/qrcode.jpg', url: hosts+data["url"]};
+          var base = process.cwd();
+           var content = fs.readFileSync(base+"/data/"+info+".txt","ascii");
+           var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.github.com/node-webot/webot-example/master/qrcode.jpg', url: hosts+data["href"]};
            return reply;
         } else{
           return "沒有找到"+info+"对应的题目";

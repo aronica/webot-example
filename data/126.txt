@@ -1,50 +1,6 @@
-
-              <p/><p>&#13;
-Given two words (<i>start</i> and <i>end</i>), and a dictionary, find all shortest transformation sequence(s) from <i>start</i> to <i>end</i>, such that:&#13;
-</p>&#13;
-<ol>&#13;
-<li>Only one letter can be changed at a time</li>&#13;
-<li>Each intermediate word must exist in the dictionary</li>&#13;
-</ol>&#13;
-&#13;
-<p>&#13;
-For example,&#13;
-</p>&#13;
-<p>&#13;
-Given:<br/>&#13;
-<i>start</i> = <code>"hit"</code><br/>&#13;
-<i>end</i> = <code>"cog"</code><br/>&#13;
-<i>dict</i> = <code>["hot","dot","dog","lot","log"]</code><br/>&#13;
-</p>&#13;
-<p>&#13;
-Return<br/>&#13;
-</p><pre>&#13;
-  [&#13;
-    ["hit","hot","dot","dog","cog"],&#13;
-    ["hit","hot","lot","log","cog"]&#13;
-  ]&#13;
-</pre>&#13;
-&#13;
-&#13;
-<p>&#13;
-<b>Note:</b><br/>&#13;
-</p><ul>&#13;
-<li>All words have the same length.</li>&#13;
-<li>All words contain only lowercase alphabetic characters.</li>&#13;
-</ul>&#13;
-
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/backtracking/">Backtracking</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/breadth-first-search/">Breadth-first Search</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+Given two words ( start and end ), and a dictionary, find all shortest transformation sequence(s) from start to end , such that:
+For example,
+Given: start = "hit" end = "cog" dict = ["hot","dot","dog","lot","log"]
+Return
+Note:
+Tags:Array,Backtracking,Breadth-first Search,String

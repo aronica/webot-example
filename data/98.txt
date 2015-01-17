@@ -1,45 +1,6 @@
-
-              <p/><p>&#13;
-Given a binary tree, determine if it is a valid binary search tree (BST).&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-Assume a BST is defined as follows:&#13;
-</p><ul>&#13;
-<li>The left subtree of a node contains only nodes with keys <b>less than</b> the node's key.</li>&#13;
-<li>The right subtree of a node contains only nodes with keys <b>greater than</b> the node's key.</li>&#13;
-<li>Both the left and right subtrees must also be binary search trees.</li>&#13;
-</ul>&#13;
-&#13;
-&#13;
-<p class="showspoilers">confused what <code>"{1,#,2,3}"</code> means? <a href="#" onclick="showSpoilers(this); return false;">&gt; read more on how binary tree is serialized on OJ.</a></p>&#13;
-&#13;
-<div class="spoilers"><br/><b>OJ's Binary Tree Serialization:</b>&#13;
-<p>&#13;
-The serialization of a binary tree follows a level order traversal, where '#' signifies a path terminator where no node exists below.&#13;
-</p>&#13;
-<p>&#13;
-Here's an example:<br/>&#13;
-</p><pre>&#13;
-   1&#13;
-  / \&#13;
- 2   3&#13;
-    /&#13;
-   4&#13;
-    \&#13;
-     5&#13;
-</pre>&#13;
-The above binary tree is serialized as <code>"{1,2,3,#,#,4,#,#,5}"</code>. &#13;
-&#13;
-</div>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/tree/">Tree</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/depth-first-search/">Depth-first Search</a>
-                  
-                </span>
-              
-            
+Given a binary tree, determine if it is a valid binary search tree (BST).
+Assume a BST is defined as follows:
+confused what "{1,#,2,3}" means? > read more on how binary tree is serialized on OJ.
+The serialization of a binary tree follows a level order traversal, where '#' signifies a path terminator where no node exists below.
+Here's an example:
+Tags:Tree,Depth-first Search

@@ -1,25 +1,5 @@
-
-              <p/><p>Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.</p>&#13;
-&#13;
-<p>If the fractional part is repeating, enclose the repeating part in parentheses.</p>&#13;
-<p>&#13;
-For example,&#13;
-</p><ul>&#13;
-<li>Given numerator = 1, denominator = 2, return "0.5".</li>&#13;
-<li>Given numerator = 2, denominator = 1, return "2".</li>&#13;
-<li>Given numerator = 2, denominator = 3, return "0.(6)".</li>&#13;
-</ul>&#13;
-&#13;
-&#13;
-<p><b>Credits:</b><br/>Special thanks to <a href="https://oj.leetcode.com/discuss/user/Shangrila">@Shangrila</a> for adding this problem and creating all test cases.</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/hash-table/">Hash Table</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/math/">Math</a>
-                  
-                </span>
-              
-            
+Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.
+If the fractional part is repeating, enclose the repeating part in parentheses.
+For example,
+Credits: Special thanks to @Shangrila for adding this problem and creating all test cases.
+Tags:Hash Table,Math

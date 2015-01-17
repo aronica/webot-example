@@ -1,13 +1,2 @@
-
-              <p/><p>Given <i>n</i> points on a 2D plane, find the maximum number of points that lie on the same straight line.</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/hash-table/">Hash Table</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/math/">Math</a>
-                  
-                </span>
-              
-            
+Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.
+Tags:Hash Table,Math

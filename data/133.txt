@@ -1,56 +1,6 @@
-
-              <p/><p>&#13;
-Clone an undirected graph. Each node in the graph contains a <code>label</code> and a list of its <code>neighbors</code>.&#13;
-</p>&#13;
-&#13;
-<div>&#13;
-<br/>&#13;
-<b>OJ's undirected graph serialization:</b>&#13;
-&#13;
-<p>&#13;
-Nodes are labeled uniquely.&#13;
-</p>&#13;
-&#13;
-We use <code>#</code> as a separator for each node, and <code>,</code> as a separator for node label and each neighbor of the node.&#13;
-&#13;
-&#13;
-&#13;
-<p>&#13;
-As an example, consider the serialized graph <code><font color="red">{<font color="black">0</font>,1,2#</font><font color="blue"><font color="black">1</font>,2#</font><font color="green"><font color="black">2</font>,2}</font></code>.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-The graph has a total of three nodes, and therefore contains three parts as separated by <code>#</code>.&#13;
-</p><ol>&#13;
-<li>First node is labeled as <code><font color="black">0</font></code>. Connect node <code><font color="black">0</font></code> to both nodes <code><font color="red">1</font></code> and <code><font color="red">2</font></code>.</li>&#13;
-<li>Second node is labeled as <code><font color="black">1</font></code>. Connect node <code><font color="black">1</font></code> to node <code><font color="blue">2</font></code>.</li>&#13;
-<li>Third node is labeled as <code><font color="black">2</font></code>. Connect node <code><font color="black">2</font></code> to node <code><font color="green">2</font></code> (itself), thus forming a self-cycle.</li>&#13;
-</ol>&#13;
-&#13;
-&#13;
-<p>&#13;
-Visually, the graph looks like the following:&#13;
-</p><pre>&#13;
-       1&#13;
-      / \&#13;
-     /   \&#13;
-    0 --- 2&#13;
-         / \&#13;
-         \_/&#13;
-</pre>&#13;
-&#13;
-&#13;
-</div>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/depth-first-search/">Depth-first Search</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/breadth-first-search/">Breadth-first Search</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/graph/">Graph</a>
-                  
-                </span>
-              
-            
+Clone an undirected graph. Each node in the graph contains a label and a list of its neighbors .
+Nodes are labeled uniquely.
+As an example, consider the serialized graph { 0 ,1,2# 1 ,2# 2 ,2} .
+The graph has a total of three nodes, and therefore contains three parts as separated by # .
+Visually, the graph looks like the following:
+Tags:Depth-first Search,Breadth-first Search,Graph

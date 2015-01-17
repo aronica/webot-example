@@ -1,22 +1,4 @@
-
-              <p/><p>Given a linked list and a value <i>x</i>, partition it such that all nodes less than <i>x</i> come before nodes greater than or equal to <i>x</i>.&#13;
-</p>&#13;
-<p>&#13;
-You should preserve the original relative order of the nodes in each of the two partitions.&#13;
-</p>&#13;
-<p>&#13;
-For example,<br/>&#13;
-Given <code>1-&gt;4-&gt;3-&gt;2-&gt;5-&gt;2</code> and <i>x</i> = 3,<br/>&#13;
-return <code>1-&gt;2-&gt;2-&gt;4-&gt;3-&gt;5</code>.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/linked-list/">Linked List</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/two-pointers/">Two Pointers</a>
-                  
-                </span>
-              
-            
+Given a linked list and a value x , partition it such that all nodes less than x come before nodes greater than or equal to x .
+You should preserve the original relative order of the nodes in each of the two partitions.
+For example, Given 1->4->3->2->5->2 and x = 3, return 1->2->2->4->3->5 .
+Tags:Linked List,Two Pointers

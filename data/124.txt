@@ -1,32 +1,5 @@
-
-              <p/><p>&#13;
-Given a binary tree, find the maximum path sum.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-The path may start and end at any node in the tree.&#13;
-</p>&#13;
-&#13;
-<p>&#13;
-For example:<br/>&#13;
-Given the below binary tree,&#13;
-</p><pre>&#13;
-       1&#13;
-      / \&#13;
-     2   3&#13;
-</pre>&#13;
-&#13;
-<p>&#13;
-Return <code>6</code>.&#13;
-</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/tree/">Tree</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/depth-first-search/">Depth-first Search</a>
-                  
-                </span>
-              
-            
+Given a binary tree, find the maximum path sum.
+The path may start and end at any node in the tree.
+For example: Given the below binary tree,
+Return 6 .
+Tags:Tree,Depth-first Search

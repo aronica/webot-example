@@ -1,16 +1,3 @@
-
-              <p/><p>Given an integer, convert it to a roman numeral.&#13;
-</p>&#13;
-&#13;
-<p>Input is guaranteed to be within the range from 1 to 3999.</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/math/">Math</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+Given an integer, convert it to a roman numeral.
+Input is guaranteed to be within the range from 1 to 3999.
+Tags:Math,String

@@ -1,21 +1,5 @@
-
-              <p/><p>Compare two version numbers <i>version1</i> and <i>version1</i>.<br/>&#13;
-If <i>version1</i> &gt; <i>version2</i> return 1, if <i>version1</i> &lt; <i>version2</i> return -1, otherwise return 0.</p>&#13;
-&#13;
-<p>You may assume that the version strings are non-empty and contain only digits and the <code>.</code> character.<br/>&#13;
-The <code>.</code> character does not represent a decimal point and is used to separate number sequences.<br/>&#13;
-For instance, <code>2.5</code> is not "two and a half" or "half way to version three", it is the fifth second-level revision of the second first-level revision.</p>&#13;
-&#13;
-<p>Here is an example of version numbers ordering:</p>&#13;
-<pre>0.1 &lt; 1.1 &lt; 1.2 &lt; 13.37</pre>&#13;
-&#13;
-<p><b>Credits:</b><br/>Special thanks to <a href="https://oj.leetcode.com/discuss/user/ts">@ts</a> for adding this problem and creating all test cases.</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
-                  
-                </span>
-              
-            
+Compare two version numbers version1 and version1 . If version1 > version2 return 1, if version1 < version2 return -1, otherwise return 0.
+You may assume that the version strings are non-empty and contain only digits and the . character. The . character does not represent a decimal point and is used to separate number sequences. For instance, 2.5 is not "two and a half" or "half way to version three", it is the fifth second-level revision of the second first-level revision.
+Here is an example of version numbers ordering:
+Credits: Special thanks to @ts for adding this problem and creating all test cases.
+Tags:String

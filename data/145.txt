@@ -1,30 +1,5 @@
-
-              <p/><p>Given a binary tree, return the <i>postorder</i> traversal of its nodes' values.</p>&#13;
-&#13;
-<p>&#13;
-For example:<br/>&#13;
-Given binary tree <code>{1,#,2,3}</code>,<br/>&#13;
-</p><pre>&#13;
-   1&#13;
-    \&#13;
-     2&#13;
-    /&#13;
-   3&#13;
-</pre>&#13;
-&#13;
-<p>&#13;
-return <code>[3,2,1]</code>.&#13;
-</p>&#13;
-&#13;
-<p><b>Note:</b> Recursive solution is trivial, could you do it iteratively?</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/tree/">Tree</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/stack/">Stack</a>
-                  
-                </span>
-              
-            
+Given a binary tree, return the postorder traversal of its nodes' values.
+For example: Given binary tree {1,#,2,3} ,
+return [3,2,1] .
+Note: Recursive solution is trivial, could you do it iteratively?
+Tags:Tree,Stack

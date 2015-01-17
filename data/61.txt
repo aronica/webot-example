@@ -1,17 +1,3 @@
-
-              <p/><p>Given a list, rotate the list to the right by <i>k</i> places, where <i>k</i> is non-negative.</p>&#13;
-&#13;
-<p>For example:<br/>&#13;
-Given <code>1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;NULL</code> and <i>k</i> = <code>2</code>,<br/>&#13;
-return <code>4-&gt;5-&gt;1-&gt;2-&gt;3-&gt;NULL</code>.</p>
-              
-                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
-                <span class="hide">
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/linked-list/">Linked List</a>
-                  
-                  <a class="btn btn-xs btn-primary" href="/tag/two-pointers/">Two Pointers</a>
-                  
-                </span>
-              
-            
+Given a list, rotate the list to the right by k places, where k is non-negative.
+For example: Given 1->2->3->4->5->NULL and k = 2 , return 4->5->1->2->3->NULL .
+Tags:Linked List,Two Pointers
