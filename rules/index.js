@@ -31,7 +31,7 @@ module.exports = exports = function(webot){
     handler: function(info){
       var reply = {
         title: '感谢你收听webot机器人',
-        pic: 'https://mp.weixin.qq.com/misc/getqrcode?fakeid=2396764568&token=1193751646&style=1',
+        pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg',
         url: 'https://oj.leetcode.com',
         description: [
          '随时随地在手机上刷oj.leetcode.com算法题',
@@ -70,7 +70,7 @@ module.exports = exports = function(webot){
         if (data){
           var base = process.cwd();
            var content = fs.readFileSync(base+"/data/"+info+".txt","ascii");
-           var reply = {title: info+"."+data["title"], description: content, pic: 'https://mp.weixin.qq.com/misc/getqrcode?fakeid=2396764568&token=1193751646&style=1', url: hosts+data["href"]};
+           var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: hosts+data["href"]};
            return reply;
         } else{
           return "沒有找到"+info+"对应的题目或者该题需要购买leetcode电子书才可以浏览";
@@ -101,7 +101,7 @@ module.exports = exports = function(webot){
 		if (data){
           var base = process.cwd();
            var content = fs.readFileSync(base+"/data/"+file,"ascii");
-           var reply = {title: info+"."+data["title"], description: content, pic: 'https://mp.weixin.qq.com/misc/getqrcode?fakeid=2396764568&token=1193751646&style=1', url: hosts+data["href"]};
+           var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: hosts+data["href"]};
            return reply;
         } else{
           return "沒有找到"+info+"对应的题目或者该题需要购买leetcode电子书才可以浏览";
