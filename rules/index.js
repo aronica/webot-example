@@ -13,7 +13,7 @@ var package_info = require('../package.json');
 var meta = require("../lib/meta");
 var hosts = "https://oj.leetcode.com" ;
 var fs = require("fs");
-
+var top = require("../lib/top");
 /**
  * 初始化路由规则
  */
@@ -72,10 +72,23 @@ module.exports = exports = function(webot){
            var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.github.com/node-webot/webot-example/master/qrcode.jpg', url: hosts+data["href"]};
            return reply;
         } else{
-          return "沒有找到"+info+"对应的题目";
+          return "沒有找到"+info+"对应的题目或者该题需要购买leetcode电子书才可以浏览";
         }
      }
   });
+
+  webot.set("top",{
+    description:"返回leetcode热门Top10",
+    pattern:/^top|Top/i,
+    handler:function(){
+        var content = [];
+        for(var i = 0;i<top.length;i++){
+          content.push(top[i]["id"]+". "+top["title"]);
+        }
+        content.push("带*的题目需要购买leetcode电子书才可以查看");
+        return content.join("\n\n");
+    }
+  })
 
   webot.set('who_are_you', {
     description: '想知道我是谁吗? 发送: who?',
