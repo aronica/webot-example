@@ -14,7 +14,7 @@ var meta = require("../lib/meta");
 var hosts = "https://oj.leetcode.com" ;
 var fs = require("fs");
 var top = require("../lib/top");
-var allfiles = fs.readdirSync("../lib/data");
+var allfiles = fs.readdirSync(process.cwd()+"/data");
 /**
  * 初始化路由规则
  */
@@ -95,10 +95,12 @@ module.exports = exports = function(webot){
     description:"随机返回一道题",
     pattern:/^r|R|random|Random|ran|Ran/i,
     handler:function(){
-        var data = Math.floor(Math.random()*allfiles.length);
-        if (data){
+		var file =  allfiles[Math.floor(Math.random()*allfiles.length)];
+        var data =meta[file.substring(0,file.indexOf("."))] ;
+		var info = data["id"];
+		if (data){
           var base = process.cwd();
-           var content = fs.readFileSync(base+"/data/"+info,"ascii");
+           var content = fs.readFileSync(base+"/data/"+file,"ascii");
            var reply = {title: info+"."+data["title"], description: content, pic: 'https://mp.weixin.qq.com/misc/getqrcode?fakeid=2396764568&token=1193751646&style=1', url: hosts+data["href"]};
            return reply;
         } else{
