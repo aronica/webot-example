@@ -83,10 +83,10 @@ module.exports = exports = function(webot){
     handler:function(){
         var content = [];
         for(var i = 0;i<top.length;i++){
-          content.push(top[i]["id"]+". "+top["title"]);
+          content.push(top[i]["id"]+". "+top[i]["title"]);
         }
         content.push("带*的题目需要购买leetcode电子书才可以查看");
-        return content.join("\n\n");
+        return content.join("\n");
     }
   })
 
