@@ -14,6 +14,7 @@ var meta = require("../lib/meta");
 var hosts = "https://oj.leetcode.com" ;
 var fs = require("fs");
 var top = require("../lib/top");
+var allfiles = fs.readdirSync("../lib/data");
 /**
  * 初始化路由规则
  */
@@ -30,8 +31,8 @@ module.exports = exports = function(webot){
     handler: function(info){
       var reply = {
         title: '感谢你收听webot机器人',
-        pic: 'https://raw.github.com/node-webot/webot-example/master/qrcode.jpg',
-        url: 'https://github.com/node-webot/webot-example',
+        pic: 'https://mp.weixin.qq.com/misc/getqrcode?fakeid=2396764568&token=1193751646&style=1',
+        url: 'https://oj.leetcode.com',
         description: [
          '随时随地在手机上刷oj.leetcode.com算法题',
          '帮助：',
@@ -69,7 +70,7 @@ module.exports = exports = function(webot){
         if (data){
           var base = process.cwd();
            var content = fs.readFileSync(base+"/data/"+info+".txt","ascii");
-           var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.github.com/node-webot/webot-example/master/qrcode.jpg', url: hosts+data["href"]};
+           var reply = {title: info+"."+data["title"], description: content, pic: 'https://mp.weixin.qq.com/misc/getqrcode?fakeid=2396764568&token=1193751646&style=1', url: hosts+data["href"]};
            return reply;
         } else{
           return "沒有找到"+info+"对应的题目或者该题需要购买leetcode电子书才可以浏览";
@@ -83,12 +84,29 @@ module.exports = exports = function(webot){
     handler:function(){
         var content = [];
         for(var i = 0;i<top.length;i++){
-          content.push(top[i]["id"]+". "+top[i]["title"]);
+          content.push(top[i]["id"]+". <a href='"+top[i]["href"]+"'>"+top[i]["title"]+"</a>");
         }
         content.push("带*的题目需要购买leetcode电子书才可以查看");
-        return content.join("\n");
+        return content.join("\n\n");
     }
-  })
+  });
+
+  webot.set("random",{
+    description:"随机返回一道题",
+    pattern:/^r|R|random|Random|ran|Ran/i,
+    handler:function(){
+        var data = Math.floor(Math.random()*allfiles.length);
+        if (data){
+          var base = process.cwd();
+           var content = fs.readFileSync(base+"/data/"+info,"ascii");
+           var reply = {title: info+"."+data["title"], description: content, pic: 'https://mp.weixin.qq.com/misc/getqrcode?fakeid=2396764568&token=1193751646&style=1', url: hosts+data["href"]};
+           return reply;
+        } else{
+          return "沒有找到"+info+"对应的题目或者该题需要购买leetcode电子书才可以浏览";
+        }
+    }
+  });
+
 
   webot.set('who_are_you', {
     description: '想知道我是谁吗? 发送: who?',
