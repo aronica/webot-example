@@ -148,7 +148,7 @@ module.exports = exports = function(webot){
         if (data && !data["ebook"]){
           var base = process.cwd();
            var content = fs.readFileSync(base+"/data/"+data["id"]+".txt","ascii");
-           var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: hosts+data["href"]};
+           var reply = {title: data["id"]+"."+data["title"], description: content, pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: hosts+data["href"]};
            return reply;
         }
         }
