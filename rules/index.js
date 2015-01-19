@@ -114,7 +114,7 @@ module.exports = exports = function(webot){
 
   webot.set("random",{
     description:"随机返回一道题",
-    pattern:/^r|R|random|Random|ran|Ran\s*$/i,
+    pattern:/^r\s*$|^random\s*$|^ran\s*$/i,
     handler:function(){
 		var file =  allfiles[Math.floor(Math.random()*allfiles.length)];
         var data =meta[file.substring(0,file.indexOf("."))] ;
@@ -141,12 +141,12 @@ module.exports = exports = function(webot){
   webot.set("tags",{
       description:"返回所有Tag列表",
       pattern:/^(array|hashtable|linkedlist|math|pointer|string|binary search|device and conquer|dp|backtracking|stack|heap|greedy|sort|bit|tree|dfs|bfs|graph|data structure)\s*/i,
-      handler:function(info){
+      handler:function(infos){
       while(true){
-        var data = tags[tagconverter(info.param[1])][Math.floor(Math.random()*tags[tagconverter(info.param[1])].length)];
+        var data = tags[tagconverter(infos.param[1])][Math.floor(Math.random()*tags[tagconverter(infos.param[1])].length)];
         if (data && !data["ebook"]){
           var base = process.cwd();
-           var content = fs.readFileSync(base+"/data/"+info+".txt","ascii");
+           var content = fs.readFileSync(base+"/data/"+data["id"]+".txt","ascii");
            var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: hosts+data["href"]};
            return reply;
         }
