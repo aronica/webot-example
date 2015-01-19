@@ -15,11 +15,13 @@ var hosts = "https://oj.leetcode.com" ;
 var fs = require("fs");
 var top = require("../lib/top");
 var allfiles = fs.readdirSync(process.cwd()+"/data");
+var tag = require("../lib/tag");
+var tags = require("../lib/tags");
 /**
  * 初始化路由规则
  */
 module.exports = exports = function(webot){
-  var reg_help = /^(help|\?)$/i
+  var reg_help = /^(help|\?|h)$/i
   webot.set({
     // name 和 description 都不是必须的
     name: 'hello help',
@@ -40,7 +42,8 @@ module.exports = exports = function(webot){
          '[2].1,2,3,4...输入数字返回对于ID的题目',
          '[3].r,R 随机返回一道题目',
          '[4].top,Top返回热门列表',
-         '[5].dp,string,hashtable,tree,math...返回指定标签下随机一道题'
+         '[5].tag,Tag返回所有Tag',
+         '[6].dp,string,hashtable,tree,math...返回指定标签下随机一道题'
         ].join('\n')
       };
       // 返回值如果是list，则回复图文消息列表
@@ -67,13 +70,16 @@ module.exports = exports = function(webot){
      handler:function(body){
         var info = body["text"];
         var data = meta[info];
-        if (data){
+        if (data && !data["ebook"]){
           var base = process.cwd();
            var content = fs.readFileSync(base+"/data/"+info+".txt","ascii");
            var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: hosts+data["href"]};
            return reply;
+        }else if(data["ebook"]){
+           return "问题"+info+"leetcode官方需要购买电子书才可以浏览";
+
         } else{
-          return "沒有找到"+info+"对应的题目或者该题需要购买leetcode电子书才可以浏览";
+          return "沒有找到"+info+"对应的题目";
         }
      }
   });
@@ -86,7 +92,7 @@ module.exports = exports = function(webot){
         for(var i = 0;i<top.length;i++){
           content.push(top[i]["id"]+". <a href='"+top[i]["href"]+"'>"+top[i]["title"]+"</a>");
         }
-        content.push("带*的题目需要购买leetcode电子书才可以查看");
+        content.push("带*的题目leetcode需要购买电子书才可以查看");
         return content.join("\n\n");
     }
   });
@@ -108,6 +114,22 @@ module.exports = exports = function(webot){
         }
     }
   });
+
+  webot.set("tag",{
+    description:"返回所有Tag列表",
+    pattern:/^tag$/i,
+    handler:function(){
+      return tag.join("\n");
+    }
+  });
+
+  webot.set("tags",{
+      description:"返回所有Tag列表",
+      pattern:/^(array|hashtable|linkedlist|math|pointer|string|binary search|device and conquer|dp|backtracking|stack|heap|greedy|sort|bit|tree|dfs|bfs|graph|data structure)/i,
+      handler:function(){
+        return "nihao,{1}";
+      }
+    });
 
 
   webot.set('who_are_you', {
