@@ -143,7 +143,7 @@ module.exports = exports = function(webot){
       pattern:/^(array|hashtable|linkedlist|math|pointer|string|binary search|device and conquer|dp|backtracking|stack|heap|greedy|sort|bit|tree|dfs|bfs|graph|data structure)\s*/i,
       handler:function(infos){
       while(true){
-        var data = tags[tagconverter(infos.param[1])][Math.floor(Math.random()*tags[tagconverter(infos.param[1])].length)];
+        var data = meta[tags[tagconverter(infos.param[1])][Math.floor(Math.random()*tags[tagconverter(infos.param[1])].length)]+""];
         if (data && !data["ebook"]){
           var base = process.cwd();
            var content = fs.readFileSync(base+"/data/"+data["id"]+".txt","ascii");
