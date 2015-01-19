@@ -144,6 +144,7 @@ module.exports = exports = function(webot){
       handler:function(infos){
       while(true){
         var data = meta[tags[tagconverter(infos.param[1])][Math.floor(Math.random()*tags[tagconverter(infos.param[1])].length)]+""];
+        var info = data["title"];
         if (data && !data["ebook"]){
           var base = process.cwd();
            var content = fs.readFileSync(base+"/data/"+data["id"]+".txt","ascii");
