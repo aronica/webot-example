@@ -17,6 +17,21 @@ var top = require("../lib/top");
 var allfiles = fs.readdirSync(process.cwd()+"/data");
 var tag = require("../lib/tag");
 var tags = require("../lib/tags");
+
+function tagconverter(tag){
+  if(tag=="hashtable")return "Hash Table";
+  if(tag=="dfs")return "Depth-first Search";
+  if(tag=="bfs")return "Breadth-first Search";
+  if(tag == "dp")return "Dynamic Programming";
+  if(tag=="bit")return "Bit Manipulation";
+  if(tag=="linkedlist")return "Linked List";
+  var res = [];
+  var arr = tag.split(" ");
+  for(var i = 0;i<arr.length;i++){
+    res.push(arr[i][0].toUpperCase()+arr[i].substring(1));
+  }
+  return res.join(" ")
+}
 /**
  * 初始化路由规则
  */
@@ -99,7 +114,7 @@ module.exports = exports = function(webot){
 
   webot.set("random",{
     description:"随机返回一道题",
-    pattern:/^r|R|random|Random|ran|Ran/i,
+    pattern:/^r|R|random|Random|ran|Ran\s*$/i,
     handler:function(){
 		var file =  allfiles[Math.floor(Math.random()*allfiles.length)];
         var data =meta[file.substring(0,file.indexOf("."))] ;
@@ -125,9 +140,17 @@ module.exports = exports = function(webot){
 
   webot.set("tags",{
       description:"返回所有Tag列表",
-      pattern:/^(array|hashtable|linkedlist|math|pointer|string|binary search|device and conquer|dp|backtracking|stack|heap|greedy|sort|bit|tree|dfs|bfs|graph|data structure)/i,
-      handler:function(){
-        return "nihao,{1}";
+      pattern:/^(array|hashtable|linkedlist|math|pointer|string|binary search|device and conquer|dp|backtracking|stack|heap|greedy|sort|bit|tree|dfs|bfs|graph|data structure)\s*/i,
+      handler:function(info){
+      while(true){
+        var data = tags[tagconverter(info.param[1])][Math.floor(Math.random()*tags[tagconverter(info.param[1])].length)];
+        if (data && !data["ebook"]){
+          var base = process.cwd();
+           var content = fs.readFileSync(base+"/data/"+info+".txt","ascii");
+           var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: hosts+data["href"]};
+           return reply;
+        }
+        }
       }
     });
 
