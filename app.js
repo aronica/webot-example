@@ -3,7 +3,7 @@ var webot = require('weixin-robot');
 
 var log = require('debug')('webot-example:log');
 var verbose = require('debug')('webot-example:verbose');
-
+var swig = require("swig");
 // 启动服务
 var app = express();
 
@@ -34,6 +34,25 @@ app.use(express.session({
   secret: 'abced111',
   store: new express.session.MemoryStore()
 }));
+
+// This is where all the magic happens!
+app.engine('html', swig.renderFile);
+
+app.set('view engine', 'html');
+app.set('views', __dirname + '/views');
+
+// Swig will cache templates for you, but you can disable
+// that and use Express's caching instead, if you like:
+app.set('view cache', false);
+// To disable Swig's cache, do the following:
+swig.setDefaults({ cache: false });
+
+app.get('/problems', function (req, res) {
+  res.render('index', {title:"This is an example",content:"<div>hello,google</div>"});
+});
+
+
+
 // 在生产环境，你应该将此处的 store 换为某种永久存储。
 // 请参考 http://expressjs.com/2x/guide.html#session-support
 
