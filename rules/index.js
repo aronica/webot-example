@@ -17,6 +17,7 @@ var top = require("../lib/top");
 var allfiles = fs.readdirSync(process.cwd()+"/data");
 var tag = require("../lib/tag");
 var tags = require("../lib/tags");
+var appbase = "http://app.kuaibashi.com"
 
 function tagconverter(tag){
   if(tag=="hashtable")return "Hash Table";
@@ -31,6 +32,11 @@ function tagconverter(tag){
     res.push(arr[i][0].toUpperCase()+arr[i].substring(1));
   }
   return res.join(" ")
+}
+
+function geturl(item){
+  return appbase+"/problems/"+item["id"];
+  //return hosts+item["url"]
 }
 /**
  * 初始化路由规则
@@ -88,7 +94,8 @@ module.exports = exports = function(webot){
         if (data && !data["ebook"]){
           var base = process.cwd();
            var content = fs.readFileSync(base+"/data/"+info+".txt","ascii");
-           var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: hosts+data["href"]};
+           var reply = {title: info+"."+data["title"], description: content,
+            pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: geturl(data)};
            return reply;
         }else if(data&&data["ebook"]){
            return "问题"+info+"leetcode官方需要购买电子书才可以浏览";
@@ -105,7 +112,7 @@ module.exports = exports = function(webot){
     handler:function(){
         var content = [];
         for(var i = 0;i<top.length;i++){
-          content.push(top[i]["id"]+". <a href='"+top[i]["href"]+"'>"+top[i]["title"]+"</a>");
+          content.push(top[i]["id"]+". <a href='"+geturl(top[i])+"'>"+top[i]["title"]+"</a>");
         }
         content.push("带*的题目leetcode需要购买电子书才可以查看");
         return content.join("\n\n");
@@ -122,7 +129,8 @@ module.exports = exports = function(webot){
 		if (data){
           var base = process.cwd();
            var content = fs.readFileSync(base+"/data/"+file,"ascii");
-           var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: hosts+data["href"]};
+           var reply = {title: info+"."+data["title"], description: content,
+            pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url:geturl(data)};
            return reply;
         } else{
           return "沒有找到"+info+"对应的题目或者该题需要购买leetcode电子书才可以浏览";
@@ -148,7 +156,8 @@ module.exports = exports = function(webot){
         if (data && !data["ebook"]){
           var base = process.cwd();
            var content = fs.readFileSync(base+"/data/"+data["id"]+".txt","ascii");
-           var reply = {title: data["id"]+"."+data["title"], description: content, pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: hosts+data["href"]};
+           var reply = {title: data["id"]+"."+data["title"], description: content,
+            pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: geturl(data)};
            return reply;
         }
         }
