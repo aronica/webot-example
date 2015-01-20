@@ -5,7 +5,7 @@ var log = require('debug')('webot-example:log');
 var verbose = require('debug')('webot-example:verbose');
 var swig = require("swig");
 var fs = require("fs");
-var meta = require("../lib/meta");
+var meta = require("./lib/meta");
 // 启动服务
 var app = express();
 
@@ -55,7 +55,7 @@ var info = req.params.id;
 var title = meta[info];
 var base = process.cwd();
            var content = fs.readFileSync(base+"/data/"+info+".txt","ascii");
-  res.render('index', {title:title,content:content});
+  res.render('index', {title:title["title"],content:content});
 });
 
 
