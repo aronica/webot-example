@@ -53,7 +53,7 @@ swig.setDefaults({ cache: false });
 app.get('/problems/:id', function (req, res) {
 var info = req.params.id;
 var title = meta[info];
-if(title){
+if(title&&(!title["ebook"]||title["ebook"]!="true")){
    var base = process.cwd();
               var content = fs.readFileSync(base+"/html/"+info+".txt","ascii");
      res.render('index', {title:title["title"],content:content,id:info,acceptance:title["rate"],level:title["level"]});

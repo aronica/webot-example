@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
-    <title>粥悦悦</title>
+    <title>{{title}}-leetcode微信官方平台</title>
     <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/page_mp_article_improve_combo231ee2.css">
     <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/page_mp_article_improve2318b9.css"><style>        .rich_media_content{font-size:18px;}        .list-paddingleft-2{padding-left:30px;}    blockquote{margin:0;padding-left:10px;border-left:3px solid #DBDBDB;}</style><!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/page_mp_article_improve_pc22ec00.css"><![endif]-->
     <style>
@@ -201,11 +201,13 @@ height:22px;
                     return node.nextSibling;
                 }
                 function showtag(){
-                    var display = nextSibling(this).display;
-                    if(display=="none"||display=="NONE"){
-                        nextSibling(this).display = "inline";
+                    var display = nextSibling(this).offsetParent;
+                    if(display){
+                        nextSibling(this).style.display = "inline";
+                        this.textContent = "Hide Tags";
                     }else{
-                        nextSibling(this).display = "none";
+                        nextSibling(this).style.display = "none";
+                        this.textContent = "Show Tags";
                     }
                 }
                 document.getElementById("tags").onclick=showtag;
