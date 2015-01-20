@@ -1,0 +1,23 @@
+
+              <p/><p>Related to question <a href="https://oj.leetcode.com/problems/excel-sheet-column-title/">Excel Sheet Column Title</a></p>&#13;
+<p>Given a column title as appear in an Excel sheet, return its corresponding column number.</p>&#13;
+&#13;
+<p>For example:</p>&#13;
+<pre>    A -&gt; 1&#13;
+    B -&gt; 2&#13;
+    C -&gt; 3&#13;
+    ...&#13;
+    Z -&gt; 26&#13;
+    AA -&gt; 27&#13;
+    AB -&gt; 28 </pre>&#13;
+&#13;
+<p><b>Credits:</b><br/>Special thanks to <a href="https://oj.leetcode.com/discuss/user/ts">@ts</a> for adding this problem and creating all test cases.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/math/">Math</a>
+                  
+                </span>
+              
+            

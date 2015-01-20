@@ -1,0 +1,23 @@
+
+              <p/><p>Given a sorted array of integers, find the starting and ending position of a given target value.</p>&#13;
+&#13;
+<p>Your algorithm's runtime complexity must be in the order of <i>O</i>(log <i>n</i>).</p>&#13;
+&#13;
+<p>If the target is not found in the array, return <code>[-1, -1]</code>.</p>&#13;
+&#13;
+<p>&#13;
+For example,<br/>&#13;
+Given <code>[5, 7, 7, 8, 8, 10]</code> and target value 8,<br/>&#13;
+return <code>[3, 4]</code>.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/binary-search/">Binary Search</a>
+                  
+                </span>
+              
+            

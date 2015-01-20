@@ -1,0 +1,14 @@
+
+              <p/><p>You are given an <i>n</i> x <i>n</i> 2D matrix representing an image.</p>&#13;
+<p>Rotate the image by 90 degrees (clockwise).</p>&#13;
+<p>Follow up:<br/>&#13;
+Could you do this in-place?</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                </span>
+              
+            

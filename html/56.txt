@@ -1,0 +1,19 @@
+
+              <p/><p>Given a collection of intervals, merge all overlapping intervals.</p>&#13;
+&#13;
+<p>&#13;
+For example,<br/>&#13;
+Given <code>[1,3],[2,6],[8,10],[15,18]</code>,<br/>&#13;
+return <code>[1,6],[8,10],[15,18]</code>.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/sort/">Sort</a>
+                  
+                </span>
+              
+            

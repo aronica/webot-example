@@ -1,0 +1,35 @@
+
+              <p/><p>&#13;
+Given an input string, reverse the string word by word.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+For example,<br/>&#13;
+Given s = "<code>the sky is blue</code>",<br/>&#13;
+return "<code>blue is sky the</code>".&#13;
+</p>&#13;
+&#13;
+<p class="showspoilers"><a href="#" onclick="showSpoilers(this); return false;">click to show clarification.</a></p>&#13;
+&#13;
+<div class="spoilers"><b>Clarification:</b>&#13;
+&#13;
+<p>&#13;
+</p><ul>&#13;
+<li>What constitutes a word?<br/>&#13;
+A sequence of non-space characters constitutes a word.</li>&#13;
+<li>Could the input string contain leading or trailing spaces?<br/>&#13;
+Yes. However, your reversed string should not contain leading or trailing spaces.</li>&#13;
+<li>How about multiple spaces between two words?<br/>&#13;
+Reduce them to a single space in the reversed string.</li>&#13;
+</ul>&#13;
+&#13;
+</div>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
+                  
+                </span>
+              
+            

@@ -1,0 +1,20 @@
+
+              <p/><p>&#13;
+Given a string <i>s</i>, partition <i>s</i> such that every substring of the partition is a palindrome.&#13;
+</p>&#13;
+<p>&#13;
+Return the minimum cuts needed for a palindrome partitioning of <i>s</i>.&#13;
+</p>&#13;
+<p>&#13;
+For example, given <i>s</i> = <code>"aab"</code>,<br/>&#13;
+Return <code>1</code> since the palindrome partitioning <code>["aa","b"]</code> could be produced using 1 cut.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
+                  
+                </span>
+              
+            

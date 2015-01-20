@@ -54,7 +54,7 @@ app.get('/problems/:id', function (req, res) {
 var info = req.params.id;
 var title = meta[info];
 var base = process.cwd();
-           var content = fs.readFileSync(base+"/data/"+info+".txt","ascii");
+           var content = fs.readFileSync(base+"/html/"+info+".txt","ascii");
   res.render('index', {title:title["title"],content:content});
 });
 

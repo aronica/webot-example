@@ -1,0 +1,29 @@
+
+              <p/><p>&#13;
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.&#13;
+</p><ul>&#13;
+<li>&#13;
+push(x) -- Push element x onto stack.&#13;
+</li>&#13;
+<li>&#13;
+pop() -- Removes the element on top of the stack.&#13;
+</li>&#13;
+<li>&#13;
+top() -- Get the top element.&#13;
+</li>&#13;
+<li>&#13;
+getMin() -- Retrieve the minimum element in the stack.&#13;
+</li>&#13;
+</ul>&#13;
+
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/stack/">Stack</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/data-structure/">Data Structure</a>
+                  
+                </span>
+              
+            

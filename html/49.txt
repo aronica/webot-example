@@ -1,0 +1,16 @@
+
+              <p/><p>Given an array of strings, return all groups of strings that are anagrams.&#13;
+</p>&#13;
+&#13;
+<p>Note: All inputs will be in lower-case.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/hash-table/">Hash Table</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
+                  
+                </span>
+              
+            

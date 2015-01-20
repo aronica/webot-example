@@ -1,0 +1,18 @@
+
+              <p/><p>&#13;
+Given two binary trees, write a function to check if they are equal or not.&#13;
+</p>&#13;
+&#13;
+<p>Two binary trees are considered equal if they are structurally identical and the nodes have the same value.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/tree/">Tree</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/depth-first-search/">Depth-first Search</a>
+                  
+                </span>
+              
+            

@@ -1,0 +1,15 @@
+
+              <p/><p>Follow up for N-Queens problem.</p>&#13;
+&#13;
+<p>Now, instead outputting board configurations, return the total number of distinct solutions.</p>&#13;
+&#13;
+<p><img src="http://www.leetcode.com/wp-content/uploads/2012/03/8-queens.png"/></p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/backtracking/">Backtracking</a>
+                  
+                </span>
+              
+            

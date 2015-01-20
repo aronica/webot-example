@@ -1,0 +1,26 @@
+
+              <p/><p>&#13;
+Given a sorted array, remove the duplicates in place such that each element appear only <i>once</i> and return the new length.</p>&#13;
+&#13;
+<p>&#13;
+Do not allocate extra space for another array, you must do this in place with constant memory.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+For example,<br/>&#13;
+Given input array A = <code>[1,1,2]</code>,&#13;
+</p>&#13;
+<p>&#13;
+Your function should return length = <code>2</code>, and A is now <code>[1,2]</code>.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/two-pointers/">Two Pointers</a>
+                  
+                </span>
+              
+            

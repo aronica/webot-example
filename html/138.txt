@@ -1,0 +1,19 @@
+
+              <p/><p>&#13;
+A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+Return a deep copy of the list.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/hash-table/">Hash Table</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/linked-list/">Linked List</a>
+                  
+                </span>
+              
+            

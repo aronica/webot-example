@@ -1,0 +1,57 @@
+
+              <p/><p>&#13;
+Given an array of words and a length <i>L</i>, format the text such that each line has exactly <i>L</i> characters and is fully (left and right) justified.&#13;
+</p> &#13;
+&#13;
+<p>&#13;
+You should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra spaces <code>' '</code> when necessary so that each line has exactly <i>L</i> characters.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+Extra spaces between words should be distributed as evenly as possible. If the number of spaces on a line do not divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+For the last line of text, it should be left justified and no extra space is inserted between words.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+For example,<br/>&#13;
+<b>words</b>: <code>["This", "is", "an", "example", "of", "text", "justification."]</code><br/>&#13;
+<b>L</b>: <code>16</code>.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+Return the formatted lines as:<br/>&#13;
+</p><pre>&#13;
+[&#13;
+   "This    is    an",&#13;
+   "example  of text",&#13;
+   "justification.  "&#13;
+]&#13;
+</pre>&#13;
+&#13;
+&#13;
+<p>&#13;
+<b>Note:</b> Each word is guaranteed not to exceed <i>L</i> in length.&#13;
+</p>&#13;
+&#13;
+&#13;
+<p class="showspoilers"><a href="#" onclick="showSpoilers(this); return false;">click to show corner cases.</a></p>&#13;
+&#13;
+<div class="spoilers"><b>Corner Cases:</b>&#13;
+<p>&#13;
+</p><ul>&#13;
+<li>A line other than the last line might contain only one word. What should you do in this case?<br/>&#13;
+In this case, that line should be left-justified.</li>&#13;
+&#13;
+</ul></div>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
+                  
+                </span>
+              
+            

@@ -1,0 +1,15 @@
+
+              <p/><p>Given two numbers represented as strings, return multiplication of the numbers as a string.</p>&#13;
+&#13;
+<p>Note: The numbers can be arbitrarily large and are non-negative.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/math/">Math</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
+                  
+                </span>
+              
+            

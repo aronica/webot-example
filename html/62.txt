@@ -1,0 +1,24 @@
+
+              <p/><p>A robot is located at the top-left corner of a <i>m</i> x <i>n</i> grid (marked 'Start' in the diagram below).</p>&#13;
+&#13;
+<p>The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).</p>&#13;
+&#13;
+<p>How many possible unique paths are there?</p>&#13;
+&#13;
+<p>&#13;
+<img src="http://leetcode.com/wp-content/uploads/2014/12/robot_maze.png"/><br/>&#13;
+</p><p style="font-size: 11px">Above is a 3 x 7 grid. How many possible unique paths are there?&#13;
+</p>&#13;
+&#13;
+<p><b>Note:</b> <i>m</i> and <i>n</i> will be at most 100.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/array/">Array</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
+                  
+                </span>
+              
+            

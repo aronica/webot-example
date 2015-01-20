@@ -1,0 +1,15 @@
+
+              <p/><p>Given a binary tree, find its minimum depth.</p>&#13;
+&#13;
+<p>The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/tree/">Tree</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/depth-first-search/">Depth-first Search</a>
+                  
+                </span>
+              
+            

@@ -1,0 +1,60 @@
+
+              <p/><p>Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).</p>&#13;
+&#13;
+<p>&#13;
+For example, this binary tree is symmetric:&#13;
+</p><pre>&#13;
+    1&#13;
+   / \&#13;
+  2   2&#13;
+ / \ / \&#13;
+3  4 4  3&#13;
+</pre>&#13;
+&#13;
+<p>&#13;
+But the following is not:<br/>&#13;
+</p><pre>&#13;
+    1&#13;
+   / \&#13;
+  2   2&#13;
+   \   \&#13;
+   3    3&#13;
+</pre>&#13;
+&#13;
+&#13;
+<p>&#13;
+<b>Note:</b><br/>&#13;
+Bonus points if you could solve it both recursively and iteratively.&#13;
+</p>&#13;
+&#13;
+<p class="showspoilers">confused what <code>"{1,#,2,3}"</code> means? <a href="#" onclick="showSpoilers(this); return false;">&gt; read more on how binary tree is serialized on OJ.</a></p>&#13;
+&#13;
+<div class="spoilers"><br/><b>OJ's Binary Tree Serialization:</b>&#13;
+<p>&#13;
+The serialization of a binary tree follows a level order traversal, where '#' signifies a path terminator where no node exists below.&#13;
+</p>&#13;
+<p>&#13;
+Here's an example:<br/>&#13;
+</p><pre>&#13;
+   1&#13;
+  / \&#13;
+ 2   3&#13;
+    /&#13;
+   4&#13;
+    \&#13;
+     5&#13;
+</pre>&#13;
+The above binary tree is serialized as <code>"{1,2,3,#,#,4,#,#,5}"</code>. &#13;
+&#13;
+</div>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/tree/">Tree</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/depth-first-search/">Depth-first Search</a>
+                  
+                </span>
+              
+            

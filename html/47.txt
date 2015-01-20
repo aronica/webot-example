@@ -1,0 +1,19 @@
+
+              <p/><p>&#13;
+Given a collection of numbers that might contain duplicates, return all possible unique permutations.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+For example,<br/>&#13;
+<code>[1,1,2]</code> have the following unique permutations:<br/>&#13;
+<code>[1,1,2]</code>, <code>[1,2,1]</code>, and <code>[2,1,1]</code>.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/backtracking/">Backtracking</a>
+                  
+                </span>
+              
+            

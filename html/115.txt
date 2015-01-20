@@ -1,0 +1,27 @@
+
+              <p/><p>&#13;
+Given a string <b>S</b> and a string <b>T</b>, count the number of distinct subsequences of <b>T</b> in <b>S</b>.&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+A subsequence of a string is a new string which is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie, <code>"ACE"</code> is a subsequence of <code>"ABCDE"</code> while <code>"AEC"</code> is not).&#13;
+</p>&#13;
+&#13;
+<p>&#13;
+Here is an example:<br/>&#13;
+<b>S</b> = <code>"rabbbit"</code>, <b>T</b> = <code>"rabbit"</code>&#13;
+</p>&#13;
+<p>&#13;
+Return <code>3</code>.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/dynamic-programming/">Dynamic Programming</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
+                  
+                </span>
+              
+            

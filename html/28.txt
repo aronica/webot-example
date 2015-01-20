@@ -1,0 +1,22 @@
+
+              <p/><p>&#13;
+Implement strStr().&#13;
+</p>&#13;
+<p>&#13;
+Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.&#13;
+</p>&#13;
+<p>&#13;
+<b><font color="red">Update (2014-11-02):</font></b><br/>&#13;
+The signature of the function had been updated to return the <i>index</i> instead of the pointer. If you still see your function signature returns a <code>char *</code> or <code>String</code>, please click the reload button <span class="glyphicon glyphicon-refresh"/> to reset your code definition.&#13;
+</p>
+              
+                <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+                <span class="hide">
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/two-pointers/">Two Pointers</a>
+                  
+                  <a class="btn btn-xs btn-primary" href="/tag/string/">String</a>
+                  
+                </span>
+              
+            
