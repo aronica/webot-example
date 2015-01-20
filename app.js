@@ -4,6 +4,8 @@ var webot = require('weixin-robot');
 var log = require('debug')('webot-example:log');
 var verbose = require('debug')('webot-example:verbose');
 var swig = require("swig");
+var fs = require("fs");
+var meta = require("../lib/meta");
 // 启动服务
 var app = express();
 
@@ -47,8 +49,13 @@ app.set('view cache', false);
 // To disable Swig's cache, do the following:
 swig.setDefaults({ cache: false });
 
-app.get('/problems', function (req, res) {
-  res.render('index', {title:"This is an example",content:"<div>hello,google</div>"});
+
+app.get('/problems/:id', function (req, res) {
+var info = req.params.id;
+var title = meta[info];
+var base = process.cwd();
+           var content = fs.readFileSync(base+"/data/"+info+".txt","ascii");
+  res.render('index', {title:title,content:content});
 });
 
 
