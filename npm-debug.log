@@ -9,7 +9,7 @@
 8 verbose unsafe-perm in lifecycle true
 9 info weixin-robot-example@0.0.5 Failed to exec start script
 10 error weixin-robot-example@0.0.5 start: `node app.js`
-10 error Exit status 8
+10 error Exit status 137
 11 error Failed at the weixin-robot-example@0.0.5 start script.
 11 error This is most likely a problem with the weixin-robot-example package,
 11 error not with npm itself.

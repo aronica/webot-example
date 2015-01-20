@@ -79,7 +79,40 @@
         font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
         }
 
-
+#tags {
+width: 80px;
+}
+.btn {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+height:22px;
+}
+.btn-xs, .btn-group-xs>.btn {
+padding: 1px 5px;
+font-size: 12px;
+line-height: 1.5;
+border-radius: 3px;
+}
+.btn-warning {
+color: #fff;
+background-color: #f0ad4e;
+border-color: #eea236;
+}
     </style>
 </head>
 <body id="activity-detail" class="en_US " youdao="bind">
@@ -103,7 +136,7 @@
                                      src="https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg">
                     </p>
                     <div class="question-content">
-                        {{content}}
+                       {% autoescape false%} {{content}}{% endautoescape%}
                 </div>
             </div>
         </div>
