@@ -53,9 +53,14 @@ swig.setDefaults({ cache: false });
 app.get('/problems/:id', function (req, res) {
 var info = req.params.id;
 var title = meta[info];
-var base = process.cwd();
-           var content = fs.readFileSync(base+"/html/"+info+".txt","ascii");
-  res.render('index', {title:title["title"],content:content});
+if(title){
+   var base = process.cwd();
+              var content = fs.readFileSync(base+"/html/"+info+".txt","ascii");
+     res.render('index', {title:title["title"],content:content,id:info,acceptance:title["rate"],level:title["level"]});
+}else{
+     res.render('index', {title:"没有了",content:"沒有找到"+info+"题目或者该题需要购买leetcode电子书才可以浏览",id:info,acceptance:"100%",level:"None"});
+}
+
 });
 
 

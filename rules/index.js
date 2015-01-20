@@ -90,7 +90,7 @@ module.exports = exports = function(webot){
            var content = fs.readFileSync(base+"/data/"+info+".txt","ascii");
            var reply = {title: info+"."+data["title"], description: content, pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg', url: hosts+data["href"]};
            return reply;
-        }else if(data["ebook"]){
+        }else if(data&&data["ebook"]){
            return "问题"+info+"leetcode官方需要购买电子书才可以浏览";
 
         } else{

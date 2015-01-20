@@ -113,6 +113,42 @@ color: #fff;
 background-color: #f0ad4e;
 border-color: #eea236;
 }
+
+        .btn-primary, .btn-primary.active, .btn-primary.disabled, .btn-primary:active, .btn-primary[disabled] {
+        background-color: #3bafda;
+        border-color: #3bafda;
+        }
+        .btn, .btn.disabled, .btn[disabled] {
+        background-color: #aab2bd;
+        border-color: #aab2bd;
+        }
+        .btn {
+        color: #fff;
+        }
+        .btn-primary {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+        }
+        .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        }
     </style>
 </head>
 <body id="activity-detail" class="en_US " youdao="bind">
@@ -123,10 +159,9 @@ border-color: #eea236;
             {{title}}
         </h2>
         <div class="rich_media_meta_list">
-            <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-01-19</em>
-            <em class="rich_media_meta rich_media_meta_text">绘本漫画家</em>
-            <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname"
-               href="javascript:void(0);" id="post-user">粥悦悦</a>
+            <em id="post-date" class="rich_media_meta rich_media_meta_text">ID:{{id}}</em>
+            <em class="rich_media_meta rich_media_meta_text">Acceptance:{{acceptance}}</em>
+            <em class="rich_media_meta rich_media_meta_text">Difficulty:{{level}}</em>
         </div>
         <div id="page-content">
             <div id="img-content">
@@ -137,9 +172,14 @@ border-color: #eea236;
                     </p>
                     <div class="question-content">
                        {% autoescape false%} {{content}}{% endautoescape%}
+                    </div>
+
+                    <div style="margin-top:10px;overflow:hidden;">
+                        {% if id!="1" %} <a href="/problems/{{parseInt(id)-1}}"><span>上一题</span></a> {% else %}<span>没有了</span>{% endif %}
+                        <a href="/problems/{{parseInt(id)-1}}" style="float:right;"><span>下一题</span></a>
+                    </div>
                 </div>
             </div>
-        </div>
             <script type="text/javascript">
                 function showSpoilers(target){
                     if(document.getElementsByClassName('spoilers')[0].style.display=="none"||document.getElementsByClassName('spoilers')[0].style.display=="NONE"){
@@ -148,6 +188,25 @@ border-color: #eea236;
                         document.getElementsByClassName('spoilers')[0].style.display = "none";
                     }
                 }
+                function nextSibling(node){
+                    if (!node)return;
+                    while(node.nextSibling&&!node.nextSibling.tagName){
+                        node = node.nextSibling;
+                    }
+                    return node.nextSibling;
+                }
+                function showtag(){
+                    var display = nextSibling(this).display;
+                    if(display=="none"||display=="NONE"){
+                        nextSibling(this) = "inline";
+                    }else{
+                        nextSibling(this) = "none";
+                    }
+                }
+                document.getElementById("tags").onclick=showtag;
             </script>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
