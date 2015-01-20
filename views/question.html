@@ -1,57 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Problems | LeetCode OJ</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="LeetCode Online Judge is a platform for preparing technical coding interviews and assessing your knowledge of data structures and algorithms. Pick from our expanding library of more than 160 interview questions to solve. Use our automated tool to get real time feedback on your solution." />
-    <meta property="og:title" content="" />
-    <meta property="og:image" content="https://oj.leetcode.com/images/logolarge.jpg" />
-    <meta property="og:description" content="LeetCode Online Judge is a platform for preparing technical coding interviews and assessing your knowledge of data structures and algorithms. Pick from our expanding library of more than 160 interview questions to solve. Use our automated tool to get real time feedback on your solution." />
-    <meta name="application-name" content="LeetCode Online Judge"/>
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/en_US/htmledition/images/icon/common/favicon22c41c.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>粥悦悦</title>
+    <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/page_mp_article_improve_combo231ee2.css">
+    <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/page_mp_article_improve2318b9.css"><style>        .rich_media_content{font-size:18px;}        .list-paddingleft-2{padding-left:30px;}    blockquote{margin:0;padding-left:10px;border-left:3px solid #DBDBDB;}</style><!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/page_mp_article_improve_pc22ec00.css"><![endif]-->
+    <style>
+        .rich_media_content p{
+            white-space:normal;
+        }
+        a{
+            color:#0088cc;
+        }
+        code {
+            padding: 2px 4px;
+            font-size: 90%;
+            color: #c7254e;
+            background-color: #f9f2f4;
+            border-radius: 4px;
+        }
+        code, kbd, pre, samp {
+            font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+        }
+        p {
+        margin: 0 0 10px;
+        }
 
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://oj.leetcode.com/static/animate/animate.css" rel="stylesheet">
-    <link rel="stylesheet" href="/static/CACHE/css/aa0598c0b49c.css" type="text/css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="https://oj.leetcode.com/static/jquery/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.3.0/bootstrap-table.min.js"/>
-    <link rel="stylesheet" src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.3.0/bootstrap-table.min.css"/>
+        .form-control {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        }
+        ul, ol {
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding-left:10px;
+        font-size:14px;
+        padding-left:20px;
+        }
+
+        li{
+            padding:10px;
+        }
+
+        pre {
+        display: block;
+        padding: 9.5px;
+        margin: 0 0 10px;
+        font-size: 13px;
+        line-height: 1.42857143;
+        color: #333;
+        word-break: break-all;
+        word-wrap: break-word;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        }
+        code, kbd, pre, samp {
+        font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+        }
+
+
+    </style>
 </head>
-<body>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="question-title">
-                <h3 style="display:inline">{{title}}</h3>
-                <span class="total-ac text-info">Total Accepted: <strong>50332</strong></span>
-                <span class="total-submit text-info">Total Submissions: <strong>347064</strong></span>
-                <a class="pull-right btn btn-default" href="/problems/reverse-words-in-a-string/submissions/">My Submissions</a>
-
-
-
-            </div>
-            <div class="row">
-                <div class="col-md-12">
+<body id="activity-detail" class="en_US " youdao="bind">
+<div id="js_article" class="rich_media">
+    <div id="js_top_ad_area" class="top_banner"></div>
+    <div class="rich_media_inner">
+        <h2 class="rich_media_title" id="activity-name">
+            {{title}}
+        </h2>
+        <div class="rich_media_meta_list">
+            <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-01-19</em>
+            <em class="rich_media_meta rich_media_meta_text">绘本漫画家</em>
+            <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname"
+               href="javascript:void(0);" id="post-user">粥悦悦</a>
+        </div>
+        <div id="page-content">
+            <div id="img-content">
+                <div class="rich_media_content" id="js_content">
+                    <p style="">
+                        <img data-s="300,640" data-ratio="0.3102766798418972" data-w="506" width="auto" style="height:190px;width:190px;margin: 0px; padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; visibility: visible !important; " _width="auto"
+                                     src="https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg">
+                    </p>
                     <div class="question-content">
                         {{content}}
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-
-
-
-    <p class="action">
-        <a class="btn btn-success btn-pad" href="/discuss/questions/oj/reverse-words-in-a-string">Discuss</a>
-    </p>
-
-    <hr>
-</div>
+            <script type="text/javascript">
+                function showSpoilers(target){
+                    if(document.getElementsByClassName('spoilers')[0].style.display=="none"||document.getElementsByClassName('spoilers')[0].style.display=="NONE"){
+                        document.getElementsByClassName('spoilers')[0].style.display="block";
+                    }else{
+                        document.getElementsByClassName('spoilers')[0].style.display = "none";
+                    }
+                }
+            </script>
 </body>
 </html>
