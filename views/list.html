@@ -2,7 +2,7 @@
 <html>
 <head>
 
-       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="微信,leetcode,公众账号,算法,面试,鄙视"/>
@@ -18,32 +18,32 @@
     <style>        .rich_media_content{font-size:16px;}        .list-paddingleft-2{padding-left:30px;}    blockquote{margin:0;padding-left:10px;border-left:3px solid #DBDBDB;}</style><!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/en_US/htmledition/style/page/appmsg/page_mp_article_improve_pc22ec00.css"><![endif]-->
     <style>
         *{
-            margin: 0;
-            padding: 0;
-            font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+        margin: 0;
+        padding: 0;
+        font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
         }
         body{
-            margin:0 auto;
-            padding:5px 10px;
+        margin:0 auto;
+        padding:5px 10px;
         }
         a{
-            text-decoration: none;
+        text-decoration: none;
         }
         .rich_media_content p{
-            white-space:normal;
+        white-space:normal;
         }
         a{
-            color:#0088cc;
+        color:#0088cc;
         }
         code {
-            padding: 2px 4px;
-            font-size: 90%;
-            color: #c7254e;
-            background-color: #f9f2f4;
-            border-radius: 4px;
+        padding: 2px 4px;
+        font-size: 90%;
+        color: #c7254e;
+        background-color: #f9f2f4;
+        border-radius: 4px;
         }
         code, kbd, pre, samp {
-            font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+        font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
         }
         p {
         margin: 0 0 10px;
@@ -76,7 +76,7 @@
         }
 
         li{
-            padding:10px;
+        padding:10px;
         }
 
         pre {
@@ -96,31 +96,31 @@
         font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
         }
 
-#tags {
-width: 80px;
-}
-.btn {
-display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0;
-font-size: 14px;
-font-weight: 400;
-line-height: 1.42857143;
-text-align: center;
-white-space: nowrap;
-vertical-align: middle;
-cursor: pointer;
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
-background-image: none;
-border: 1px solid transparent;
-border-radius: 4px;
-}
+        #tags {
+        width: 80px;
+        }
+        .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        }
 
         .rich_media_meta_list{
-            margin-top:10px;
+        margin-top:10px;
         }
         .btn-primary, .btn-primary.active, .btn-primary.disabled, .btn-primary:active, .btn-primary[disabled] {
         background-color: #3bafda;
@@ -170,26 +170,31 @@ border-radius: 4px;
         border-color: #eea236;
         }
         .hide{
-            display:none;
-        }
-        .spoilers{
-            display: none;
-        }
-        .row-item{
-            margin-top:10px;
-            overflow: hidden;
-        }
-        .article-nav {
-            overflow: hidden;
-            margin-bottom: 30px;
-            font-size: 16px;
-            color: #bbb;
-            clear: both;
-            line-height:25px;
+        display:none;
         }
         .padding{padding: 10px;}
         .width100{
-            width: 100%;
+        width: 100%;
+        }
+        * {
+        box-sizing: border-box;
+        }
+
+        table tr {
+        background-color: #fff;
+        border-top: 1px solid #ccc;
+        }
+        table tr:nth-child(2n) {
+        background-color: #f8f8f8;
+        }
+
+        table th, table td {
+        padding: 6px 13px;
+        border: 1px solid #ddd;
+        }
+        table {
+        border-collapse: collapse;
+        border-spacing: 0;
         }
     </style>
 </head>
@@ -198,7 +203,7 @@ border-radius: 4px;
     <div id="js_top_ad_area" class="top_banner"></div>
     <div class="rich_media_inner">
         <h3 class="rich_media_title" id="activity-name">
-            {{title}}
+            {{tag}}
         </h3>
         <div class="rich_media_meta_list">
             <em id="post-date" class="rich_media_meta rich_media_meta_text">ID:{{id}}</em>
@@ -211,66 +216,32 @@ border-radius: 4px;
                 <div class="rich_media_content" id="js_content">
                     <p style="text-align:center;">
                         <img data-s="300,640" data-ratio="0.3102766798418972" data-w="506" width="auto" style="height:150px;width:150px;margin: 0px; padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; visibility: visible !important; " _width="auto"
-                                     src="https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg">
+                             src="https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg">
                     </p>
                     <div class="question-content">
-                       {% autoescape false%} {{content}}{% endautoescape%}
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Title</th>
+                                <th>Difficulty</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for problem in problems %}
+                               <tr>
+                                   <td>{{problem.id}}</td>
+                                   <td><a href="/problems/{{problem.id}}">{{problem.title}}</a></td>
+                                   <td>{{problem.level}}</td>
+                               </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
                     </div>
-
-                    <div class="row-item">
-                        <a class="btn btn-primary width100" href="javascript:;" onclick="showAnwser();" data-href="https://raw.githubusercontent.com{{cpp}}">参考答案</a>
-                    </div>
-                    <nav class="article-nav row-item">
-                        <a href="/problems/{{parseInt(id)-1}}">«</a>上一题
-                            {% if id!="1" %} <a href="/problems/{{parseInt(id)-1}}"><span>{{pre.title}}</span></a> {% else %}<span>没有了</span>{% endif %}<br>
-                        <a href="/problems/{{parseInt(id)-1}}">»</a>下一题
-                            {% if next.title %}<a href="/problems/{{parseInt(id)+1}}">{{next.title}}</a>{% endif %}
-                    </nav>
                 </div>
-            </div>
-            <script type="text/javascript">
-                function showSpoilers(target){
-                    if(document.getElementsByClassName('spoilers')[0].style.display=="none"||document.getElementsByClassName('spoilers')[0].style.display=="NONE"||!document.getElementsByClassName('spoilers')[0].style.display){
-                        document.getElementsByClassName('spoilers')[0].style.display="block";
-                    }else{
-                        document.getElementsByClassName('spoilers')[0].style.display = "none";
-                    }
-                }
-                function nextSibling(node){
-                    if (!node)return;
-                    while(node.nextSibling&&!node.nextSibling.tagName){
-                        node = node.nextSibling;
-                    }
-                    return node.nextSibling;
-                }
-                function showtag(){
-                    var display = nextSibling(this).offsetParent;
-                    if(!display){
-                        nextSibling(this).style.display = "inline";
-                        this.textContent = "Hide Tags";
-                    }else{
-                        nextSibling(this).style.display = "none";
-                        this.textContent = "Show Tags";
-                    }
-                }
-                if(document.getElementById("tags"))document.getElementById("tags").onclick=showtag;
-                var time = new Date().getTime();
-                var dir = false;
-                function showAnwser(){
-                    var thisTime = new Date().getTime();
-                    if(thisTime-time<60000&&!dir){
-                        var res = confirm("你确定不要再自己思考一下？");
-                        if(res){
-                            location.href="https://raw.githubusercontent.com{{cpp}}";
-                            dir = true;
-                        }
-                    }else{
-                        location.href="https://raw.githubusercontent.com{{cpp}}";
-                    }
-                }
-            </script>
             </div>
         </div>
     </div>
+</div>
 </body>
 </html>

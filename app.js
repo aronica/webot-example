@@ -6,6 +6,8 @@ var verbose = require('debug')('webot-example:verbose');
 var swig = require("swig");
 var fs = require("fs");
 var meta = require("./lib/meta");
+var cpp = require("./lib/cpp");
+var tags = require("./lib/tags");
 // 启动服务
 var app = express();
 
@@ -49,6 +51,27 @@ app.set('view cache', false);
 // To disable Swig's cache, do the following:
 swig.setDefaults({ cache: false });
 
+var mapping = {
+                       "sort":"Sort",
+                       "data-structure":"Data Structure",
+                       "dynamic-programming":"Dynamic Programming",
+                       "divide-and-conquer":"Divide and Conquer",
+                       "heap":"Heap",
+                       "two-pointers":"Two Pointers",
+                       "graph":"Graph",
+                       "tree":"Tree",
+                       "greedy":"Greedy",
+                       "bit-manipulation":"Bit Manipulation",
+                       "linked-list":"Linked List",
+                       "breadth-first-search":"Breadth-first Search",
+                       "backtracking":"Backtracking",
+                       "hash-table":"Hash Table",
+                       "binary-search":"Binary Search" ,
+                       "array":"Array" ,
+                       "depth-first-search":"Depth-first Search",
+                       "stack":"Stack",
+                       "math":"Math",
+                       "string":"String" }
 
 app.get('/problems/:id', function (req, res) {
 var info = req.params.id;
@@ -56,12 +79,37 @@ var title = meta[info];
 if(title&&(!title["ebook"]||title["ebook"]!="true")){
    var base = process.cwd();
               var content = fs.readFileSync(base+"/html/"+info+".txt","ascii");
-     res.render('index', {title:title["title"],content:content,id:info,acceptance:title["rate"],level:title["level"]});
+   var pre = {},next = {};
+   if(info!="1"){
+    pre = meta[parseInt(info)-1]||{};
+   }
+   next = meta[parseInt(info)+1];
+   var cppcontent = cpp[info]||"";
+   if(cppcontent){
+    cppcontent = cppcontent.replace(/\/blob/i,"");
+   }
+   res.render('index', {title:title["title"],content:content,id:info,acceptance:title["rate"],level:title["level"],pre:pre,next:next,cpp:cppcontent});
 }else{
      res.render('index', {title:"没有了",content:"沒有找到"+info+"题目或者该题需要购买leetcode电子书才可以浏览",id:info,acceptance:"100%",level:"None"});
 }
 
 });
+
+app.get('/tag/:tag',function(req,res){
+    var tag = req.params.tag;
+    tag = mapping[tag];
+    if(tag){
+        var ids = tags[tag];
+        var problems = [];
+        for(var i = 0;i<ids.length;i++){
+            problems.push(meta[ids[i]]);
+        }
+        res.render('list', {problems:problems,tag:tag});
+    }else{
+       res.render('list', {problems:[],tag:tag});
+    }
+});
+;
 
 
 
