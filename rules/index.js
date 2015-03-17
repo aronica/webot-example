@@ -53,11 +53,11 @@ module.exports = exports = function(webot){
     },
     handler: function(info){
       var reply = {
-        title: '感谢你收听webot机器人',
+        title: '感谢你关注leetcode公众账号',
         pic: 'https://raw.githubusercontent.com/aronica/webot-example/master/qrcode2.jpg',
         url: 'https://oj.leetcode.com',
         description: [
-         '随时随地在手机上刷oj.leetcode.com算法题',
+         '随时随地在手机上刷leetcode算法题',
          '帮助：',
          '[1].?,h,help返回此帮助',
          '[2].1,2,3,4...输入数字返回对于ID的题目',
